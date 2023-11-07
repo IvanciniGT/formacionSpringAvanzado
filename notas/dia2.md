@@ -226,3 +226,17 @@ R - Repeatable          Que el test pueda repetirlo tantas veces como quiera y s
                         (CON ESTE NOS ESTA AYUDANDO AHORA EL H" - que empiezaa siempre con una BBDD limpia)
 S - Self-validating     Que validen todas las cosas que deben garantizarse como resultado de una operación
 T - Timely              Oportunos... en el momento adecuado.
+
+---
+
+Vamos a estar trabajando con lenguaje GHERKIN...
+Con este lenguaje crearemos ficheros .feature
+Estos ficheros .feature, escritos en lenguaje GHERKIN serán ejecutados por Cucumber (Framework de pruebas)
+
+Gherkin realmente no es un lenguaje... es un conjunto de restricciones que imponemos sobre un lenguaje natural (uno de los que hablamos los seres humanos)
+Cual? El que queramos.... Realmente el que queramos:
+- Inglés
+- Español
+- Catalán
+- Aragonés
+- Asturiano
