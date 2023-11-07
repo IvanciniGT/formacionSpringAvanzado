@@ -52,5 +52,7 @@
             <!-- Configuración especial de compilación -->
         </plugins>
     </build>
+    <!-- Generación de informes JACOCO: Cobertura de código -->
+    <!-- Integración con sonar -->
 
 </project>
