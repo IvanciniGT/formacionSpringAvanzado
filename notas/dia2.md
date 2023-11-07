@@ -208,3 +208,21 @@ Módulos de maven
 JAVA 1.9 Módulos de JAVA ... module-info.java
 MAVEN Módulos de maven ... pom.xml
 GIT Módulos de git ... submodules
+---
+
+Spring cuando arranque una aplicación de Spring, 
+Buscará: 
+- Las entidades que yo haya definido en mis clases
+- Los repositorios que yo haya definido en mis clases
+- Los servicios que yo haya definido en mis clasesLos controladores que yo hya definido en mis clasesY creará automaticamente instancias de ellos, que poder inyectar a quién las solicite
+---
+
+En desarrollo seguimos los principios SOLID de desarrollo de software.
+En testing seguimos los principios FIRST de testing de software.
+
+F - Fast                Que vayan rapidito
+I - Independent         Que un test no dependa de otros test ni de condiciones externa. Todo queda definido dentro del test -> Mantenibilidad de los test
+R - Repeatable          Que el test pueda repetirlo tantas veces como quiera y siempre de el mismo resultado 
+                        (CON ESTE NOS ESTA AYUDANDO AHORA EL H" - que empiezaa siempre con una BBDD limpia)
+S - Self-validating     Que validen todas las cosas que deben garantizarse como resultado de una operación
+T - Timely              Oportunos... en el momento adecuado.

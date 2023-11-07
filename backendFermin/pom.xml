@@ -11,6 +11,17 @@
 
     <!-- Metadatos-->
     <name>Backend del sistema de animalitos Fermin</name>
+	<packaging>pom</packaging>
+	<!-- Este proyecto noo genera un jar... simplemente es el pom... con la configuración... para que otros la puedan usar -->
+	
+    <modules>
+        <module>animalitos-persistence</module>
+        <module>animalitos-service-api</module>
+        <module>animalitos-service-impl</module>
+        <module>emails-service-api</module>
+        <module>animalitos-rest-controller-v1</module>
+        <module>aplicacion-backend</module>
+    </modules>
 
     <!-- Configuraciones-->
     <properties>
@@ -38,6 +49,17 @@
             <version>${lombok.version}</version>
             <scope>provided</scope>
         </dependency>
+		<!-- https://mvnrepository.com/artifact/com.h2database/h2 
+		Esta BBDD tiene integración diorecta con Spring. Si Spring necesita una BBDD y no he condfigurado ninguna y encuentra en el classpath H2
+		Arranca esa BBDD, crear una BBDD dentro y se pone a trabajar contra ella. TODO DE GRATIS !
+		GUAY SPRING !!!!!
+		-->
+		<dependency>
+		    <groupId>com.h2database</groupId>
+		    <artifactId>h2</artifactId>
+		    <version>2.2.224</version>
+		    <scope>test</scope>
+		</dependency>
 
     </dependencies>
 
