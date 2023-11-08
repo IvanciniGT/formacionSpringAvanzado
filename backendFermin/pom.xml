@@ -72,6 +72,21 @@
             </plugin-->
             <!-- Actualización del plugin de surefire: para que soporte test JUNIT-5, que son los que vienen por defecto en Spring -->
             <!-- Configuración especial de compilación -->
+
+            <!-- Esto hace que los tests se empaqueten en otro JAR-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>${maven.jar.version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>test-jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
         </plugins>
     </build>
     <!-- Generación de informes JACOCO: Cobertura de código -->

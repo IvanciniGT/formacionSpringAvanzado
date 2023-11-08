@@ -61,7 +61,7 @@ public class AnimalitosServiceSteps {
 	public void el_animalito_en_el_repositorio_de_animalitos_tiene_por(String campo, Integer valor) {
 	}
 
-	@Entonces("se debe recibir en la bandeja de entrada {string} del usuario {string} un correo")
+/*	@Entonces("se debe recibir en la bandeja de entrada {string} del usuario {string} un correo")
 	public void se_debe_recibir_en_la_bandeja_de_entrada_del_usuario_un_correo(String bandeja, String destinatario) {
 	}
 
@@ -72,7 +72,7 @@ public class AnimalitosServiceSteps {
 	@Entonces("el cuerpo del correo debe contener: {string}")
 	public void el_cuerpo_del_correo_debe_contener(String cuerpo) {
 	}
-
+*/
 	@Dado("se devuelven los datos de animalito")
 	public void se_devuelven_los_datos_de_animalito() {
 	}

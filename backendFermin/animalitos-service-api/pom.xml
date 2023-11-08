@@ -29,6 +29,20 @@
             <version>1.0.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.fermin</groupId>
+            <artifactId>emails-service-api</artifactId>
+            <version>1.0.0</version>
+            <scope>test</scope>
+        </dependency>        
+        <!-- Me traigo el archivo de Steps de Cucumber del servicio de emails-->
+        <dependency>
+            <groupId>com.fermin</groupId>
+            <artifactId>emails-service-api</artifactId>
+            <version>1.0.0</version>
+            <type>test-jar</type>
+            <scope>test</scope>
+        </dependency>
         
     </dependencies>
 </project>

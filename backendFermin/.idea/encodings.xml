@@ -14,6 +14,7 @@
     <file url="file://$PROJECT_DIR$/emails-service-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/emails-service-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/kotlin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>
