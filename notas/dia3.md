@@ -56,3 +56,39 @@ Hay muchos tipos de TestDoubles:
 - Stub
 - Mock <<< Mockito
 - Spy
+
+# Spring application.properties
+
+Spring siempre busca por defecto al arrancar un fichero llamado application.properties (también vale application.yml)
+En ese fichero Spring lee muchas propiedades que el propio framework usa para configurarse:
+- BBDD a la que conectarse
+- Puerto en el que escuchar
+- La herramienta que voy a utilizar para autenticar a los usuarios
+
+Pero yo puedo añadir mis propias propiedades, y luego leerlas desde mi código.
+
+PROYECTO GLOBAL -> GIT
+    Persistencia 
+        SUBMODULO         Animalitos -> GIT
+        SUBMODULO         Clientes -> GIT
+    Servicios 
+    Controladores 
+
+Por encima de todo esto van los automatismos de CI/CD. JENKINS
+
+Integración continua -> Entrega Continua -> Despliegue continuo
+Jenkins. revisa el repo de git. Si hay un cambio (nuevo commit en dev)
+Si hay un commit con una anotación de nueva versión (1.2.3-dev) -> CI
+Quiero el commit en auto subido a la rama release y anotada la versión en maven (1.2.3-RC1) y le haga las pruebas
+Si todo ha ido bien quiero que arranque un proyecto de Entrega Continua:
+Si todo ha ido bien quiero que Jenkins suba el commit a la rama main (taggeandolo como 1.2.3)
+Generará el artefacto del proyecto (.jar) -> Lo suba a un artifactory o similar de mi empresa
+Y después que arraque un proceso de Despliegue continuo...
+Extraeyendo ese .ja del artifactory de mi empresa y subiendolo al entorno de produción.
+
+git add :/ && git commit -m "Esto está" && git tag 1.2.3-dev && git push origin dev --tags
+
+main -> SIEMPRE ES PRODUCCION
+release -> SIEMPRE ES PREPRODUCCION
+dev ---> DESARROLLO
+features -> NUEVAS FUNCIONALIDADES

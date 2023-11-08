@@ -27,7 +27,6 @@
             <groupId>com.fermin</groupId>
             <artifactId>animalitos-persistence</artifactId>
             <version>1.0.0</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.fermin</groupId>

@@ -31,10 +31,20 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <lombok.version>1.18.30</lombok.version>
         <spring-boot.version>2.5.6</spring-boot.version>
+        <maven.jar.version>3.3.0</maven.jar.version>
+        <mapstruct.version>1.5.5.Final</mapstruct.version>
+		<lombok-mapstruct-binding.version>0.2.0</lombok-mapstruct-binding.version>
+		<maven.compiler.version>3.11.0</maven.compiler.version>
     </properties>
 
     <!--Dependencias-->
     <dependencies>
+		        <!-- Spring boot starter de data-jpa-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -49,6 +59,13 @@
             <version>${lombok.version}</version>
             <scope>provided</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct -->
+		<dependency>
+		    <groupId>org.mapstruct</groupId>
+		    <artifactId>mapstruct</artifactId>
+		    <version>${mapstruct.version}</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/com.h2database/h2 
 		Esta BBDD tiene integración diorecta con Spring. Si Spring necesita una BBDD y no he condfigurado ninguna y encuentra en el classpath H2
 		Arranca esa BBDD, crear una BBDD dentro y se pone a trabajar contra ella. TODO DE GRATIS !
@@ -86,7 +103,31 @@
                     </execution>
                 </executions>
             </plugin>
-
+            <!-- Poder usar mapstruct junto con lombok-->
+			 <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.version}</version>
+                <configuration>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.mapstruct</groupId>
+                            <artifactId>mapstruct-processor</artifactId>
+                            <version>${mapstruct.version}</version>
+                        </path>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                            <version>${lombok.version}</version>
+                        </path>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok-mapstruct-binding</artifactId>
+                            <version>${lombok-mapstruct-binding.version}</version>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
     <!-- Generación de informes JACOCO: Cobertura de código -->

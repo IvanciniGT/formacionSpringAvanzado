@@ -71,5 +71,3 @@ Característica: Servicio de Animalitos
 
 		| nombre   | tipo | edad |
 		| Pipo     | Loro | 5    |
-
-		
