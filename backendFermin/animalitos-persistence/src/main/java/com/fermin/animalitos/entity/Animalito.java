@@ -36,4 +36,3 @@ public class Animalito {
 	private Integer edad;
 	
 }
-

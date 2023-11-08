@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="animalitos-service-impl" />
+        <module name="aplicacion-backend" />
+        <module name="animalitos-persistence" />
+        <module name="emails-service-api" />
+        <module name="animalitos-rest-controller-v1" />
+        <module name="animalitos-service-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

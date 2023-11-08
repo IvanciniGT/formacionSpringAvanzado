@@ -29,8 +29,8 @@ Característica: El servicio de emails
 		
 		Ejemplos:
 
-		| destinatario                | asunto          | cuerpo                                     |
-		| altas@animalitos.fermin.com | Nuevo animalito | Se ha dado de alta el animalito: Firularis |
+		| asunto          | cuerpo                                     |
+		| Nuevo animalito | Se ha dado de alta el animalito: Firularis |
 
 
     Esquema del escenario: Probar el envío de un email sin asunto
@@ -41,8 +41,8 @@ Característica: El servicio de emails
 		
 		Ejemplos:
 
-		| destinatario                | asunto          | cuerpo                                     |
-		| altas@animalitos.fermin.com | Nuevo animalito | Se ha dado de alta el animalito: Firularis |
+		| destinatario                | cuerpo                                     |
+		| altas@animalitos.fermin.com | Se ha dado de alta el animalito: Firularis |
 
 
     Esquema del escenario: Probar el envío de un email sin cuerpo
@@ -53,5 +53,5 @@ Característica: El servicio de emails
 		
 		Ejemplos:
 
-		| destinatario                | asunto          | cuerpo                                     |
-		| altas@animalitos.fermin.com | Nuevo animalito | Se ha dado de alta el animalito: Firularis |
+		| destinatario                | asunto          |
+		| altas@animalitos.fermin.com | Nuevo animalito |

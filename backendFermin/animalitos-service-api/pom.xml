@@ -15,4 +15,20 @@
     <!-- Metadatos-->
     <name>Servicio de Animalitos</name>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>7.14.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.fermin</groupId>
+            <artifactId>animalitos-persistence</artifactId>
+            <version>1.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        
+    </dependencies>
 </project>
