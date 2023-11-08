@@ -5581,3 +5581,684 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:04:41.667
 !MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:04:41.602Z] Requesting completion at position 55:26, between "\t\tfor(Consumer<NotificacionServicioAnimalitos> consumidor:this.consumidores(){\n\t\t\tconsumidor.accep(notifi" and "c)\n\t\t}\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:22.069
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:25:21.979Z] Requesting completion at position 67:34, between "\tpublic List<DatosAnimalito> getAllAnimalitos(){\n\t\treturn respositorioDeAnimalitos." and ";\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:22.069
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:25:22.064Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:23.108
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:25:23.107Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 1043 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:23.111
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:23.108Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:23.111
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:23.108Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:23.111
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:23.109Z] request done: headerRequestId: [3ee44c54-6421-407d-9087-e204a07ace67] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:23.200
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:25:23.139Z] Requesting completion at position 67:37, between "\tpublic List<DatosAnimalito> getAllAnimalitos(){\n\t\treturn respositorioDeAnimalitos.fin" and ";\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:23.200
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:25:23.197Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:23.920
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:25:23.919Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 722 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:23.922
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:23.920Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:23.923
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:23.921Z] request done: headerRequestId: [a765bc12-e6ff-4000-921b-4db0cc4fa717] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:23.923
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:23.921Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:24.154
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:25:23.956Z] Requesting completion at position 67:40, between "\tpublic List<DatosAnimalito> getAllAnimalitos(){\n\t\treturn respositorioDeAnimalitos.findAl" and ";\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:24.155
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:25:24.153Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:24.930
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:25:24.929Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 776 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:24.933
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:24.930Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:24.933
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:24.931Z] request done: headerRequestId: [67f3cbe1-62f4-40bb-87e7-df45ad810f5b] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:24.933
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:24.931Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:25.031
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:25:24.963Z] Requesting completion at position 67:43, between "\tpublic List<DatosAnimalito> getAllAnimalitos(){\n\t\treturn respositorioDeAnimalitos.findAll()" and ";\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:25.032
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:25:25.028Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:26.401
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:25:26.400Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 1372 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:26.402
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:26.400Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:26.402
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:26.401Z] request done: headerRequestId: [9ac7ae6b-6e67-404c-a970-c762874067fe] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:26.402
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:26.401Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:26.586
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:25:26.525Z] Requesting completion at position 67:44, between "\tpublic List<DatosAnimalito> getAllAnimalitos(){\n\t\treturn respositorioDeAnimalitos.findAll()." and ";\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:26.586
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:25:26.583Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:27.428
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:25:27.426Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 843 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:27.430
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:27.427Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:27.430
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:27.428Z] request done: headerRequestId: [d84349f4-d58b-46b5-9ed4-95fd2856dcd3] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:27.430
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:27.428Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:27.511
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:25:27.454Z] Requesting completion at position 67:49, between "\tpublic List<DatosAnimalito> getAllAnimalitos(){\n\t\treturn respositorioDeAnimalitos.findAll().map()" and ";\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:27.511
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:25:27.509Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:27.696
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:25:27.694Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 185 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:27.696
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:27.695Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:27.697
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:27.695Z] request done: headerRequestId: [3d952862-9f8b-4066-91ba-fb7d11b7a4ae] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:27.697
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:27.695Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:28.307
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:25:28.252Z] Requesting completion at position 67:48, between "\tpublic List<DatosAnimalito> getAllAnimalitos(){\n\t\treturn respositorioDeAnimalitos.findAll().map(" and ");\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:28.307
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:25:28.304Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:28.916
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:25:28.916Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 612 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:28.919
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:28.917Z] request done: headerRequestId: [a493fac5-2e03-4f50-9877-dafc33568c72] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:28.919
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:28.916Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:28.919
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:25:28.917Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:29.517
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:25:29.460Z] Requesting completion at position 67:49, between "\tpublic List<DatosAnimalito> getAllAnimalitos(){\n\t\treturn respositorioDeAnimalitos.findAll().map(a" and "nimal);\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:53.695
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:25:53.631Z] Requesting completion at position 67:45, between "\tpublic List<DatosAnimalito> getAllAnimalitos(){\n\t\treturn respositorioDeAnimalitos.findAll().." and "map( mapeador::toDatosAnimalito );\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:25:57.274
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:25:57.217Z] Requesting completion at position 67:55, between "\tpublic List<DatosAnimalito> getAllAnimalitos(){\n\t\treturn respositorioDeAnimalitos.findAll()..satream()." and "map( mapeador::toDatosAnimalito );\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:04.306
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:26:04.305Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:04.306
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:26:04.235Z] Requesting completion at position 67:87, between "\tpublic List<DatosAnimalito> getAllAnimalitos(){\n\t\treturn respositorioDeAnimalitos.findAll().stream().map( mapeador::toDatosAnimalito )." and ";\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:04.464
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:26:04.463Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 158 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:04.468
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:26:04.464Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:04.468
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:26:04.465Z] request done: headerRequestId: [30f73fc9-33c1-44fb-b595-a3154d439d42] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:04.469
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:26:04.464Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:04.956
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:26:04.954Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:04.956
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:26:04.891Z] Requesting completion at position 67:88, between "\tpublic List<DatosAnimalito> getAllAnimalitos(){\n\t\treturn respositorioDeAnimalitos.findAll().stream().map( mapeador::toDatosAnimalito ).t" and ";\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:05.114
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:26:05.113Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 159 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:05.116
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:26:05.114Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:05.116
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:26:05.114Z] request done: headerRequestId: [84df8c32-1a8c-4eae-8ada-6e30d1444867] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:05.116
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:26:05.114Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:05.206
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:26:05.142Z] Requesting completion at position 67:89, between "\tpublic List<DatosAnimalito> getAllAnimalitos(){\n\t\treturn respositorioDeAnimalitos.findAll().stream().map( mapeador::toDatosAnimalito ).to" and ";\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:05.206
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:26:05.203Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:05.337
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:26:05.336Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 133 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:05.338
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:26:05.336Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:05.338
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:26:05.337Z] request done: headerRequestId: [5b4d3187-82ca-4dd7-93aa-cb7d799d3df8] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:26:05.338
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:26:05.337Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:10.898
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:27:10.828Z] Requesting completion at position 62:18, between "\tpublic Optional<DatosAnimalito> getAnimalito(Long ultimoIdDeAnimalito){\n\t\treturn Optional." and ";\n\t}\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:10.898
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:27:10.896Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-11-08 14:27:11.131
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:78)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:50)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:11.718
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:27:11.709Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 813 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:11.719
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:11.710Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:11.719
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:11.710Z] request done: headerRequestId: [a9ff52cc-9ddd-4966-8f7e-6cf110e29bd1] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:11.719
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:11.710Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:17.095
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:27:17.094Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:17.096
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:27:17.021Z] Requesting completion at position 62:17, between "\tpublic Optional<DatosAnimalito> getAnimalito(Long ultimoIdDeAnimalito){\n\t\treturn Optional" and ";\n\t}\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:17.788
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:27:17.787Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 693 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:17.790
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:17.789Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:17.791
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:17.790Z] request done: headerRequestId: [9b2463c3-687a-45cb-a8ed-c31c128508fd] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:17.791
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:17.790Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:39.585
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:27:39.517Z] Requesting completion at position 62:68, between "\tpublic Optional<DatosAnimalito> getAnimalito(Long ultimoIdDeAnimalito){\n\t\tOptional<Animalito> animalitoRecuperado = repositorioDeAnimalitos." and "\n\t\treturn Optional;\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:39.585
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:27:39.583Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:40.028
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:27:40.026Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 443 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:40.029
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:40.027Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:40.029
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:40.027Z] request done: headerRequestId: [713d9a8a-f66d-4c44-a198-ec7a36f48984] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:40.029
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:40.027Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:40.216
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:27:40.154Z] Requesting completion at position 62:69, between "\tpublic Optional<DatosAnimalito> getAnimalito(Long ultimoIdDeAnimalito){\n\t\tOptional<Animalito> animalitoRecuperado = repositorioDeAnimalitos.f" and "\n\t\treturn Optional;\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:40.216
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:27:40.214Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:40.745
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:27:40.745Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 531 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:40.748
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:40.745Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:40.748
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:40.746Z] request done: headerRequestId: [1731fecd-03c8-42d8-8dc3-b74b9ef0d3e4] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:40.748
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:40.745Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:40.845
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:27:40.779Z] Requesting completion at position 62:72, between "\tpublic Optional<DatosAnimalito> getAnimalito(Long ultimoIdDeAnimalito){\n\t\tOptional<Animalito> animalitoRecuperado = repositorioDeAnimalitos.find" and "\n\t\treturn Optional;\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:40.846
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:27:40.843Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:41.307
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:27:41.306Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 463 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:41.308
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:41.307Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:41.309
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:41.307Z] request done: headerRequestId: [a94fbd1b-c9ff-4518-b47c-07a98a69ac83] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:41.309
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:41.307Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:41.397
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:27:41.337Z] Requesting completion at position 62:74, between "\tpublic Optional<DatosAnimalito> getAnimalito(Long ultimoIdDeAnimalito){\n\t\tOptional<Animalito> animalitoRecuperado = repositorioDeAnimalitos.findBy" and "\n\t\treturn Optional;\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:41.398
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:27:41.395Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:41.736
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:27:41.735Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 340 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:41.738
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:41.736Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:41.738
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:41.736Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:41.738
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:41.736Z] request done: headerRequestId: [bd344849-d538-40fc-8be6-524a7fb13674] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:41.848
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:27:41.846Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:41.849
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:27:41.776Z] Requesting completion at position 62:75, between "\tpublic Optional<DatosAnimalito> getAnimalito(Long ultimoIdDeAnimalito){\n\t\tOptional<Animalito> animalitoRecuperado = repositorioDeAnimalitos.findByI" and "\n\t\treturn Optional;\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:42.517
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:27:42.516Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 670 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:42.518
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:42.517Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:42.518
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:42.517Z] request done: headerRequestId: [3b012cb9-c338-4f1c-9558-6babda498c95] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:42.519
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:42.517Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:42.598
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:27:42.540Z] Requesting completion at position 62:77, between "\tpublic Optional<DatosAnimalito> getAnimalito(Long ultimoIdDeAnimalito){\n\t\tOptional<Animalito> animalitoRecuperado = repositorioDeAnimalitos.findById(" and ")\n\t\treturn Optional;\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:42.598
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:27:42.596Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-11-08 14:27:42.842
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:78)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:50)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:42.995
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:27:42.994Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 398 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:42.997
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:42.995Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:42.998
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:42.996Z] request done: headerRequestId: [260feb2c-4bd3-4d4f-a832-0b0bd4f7c9e5] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:27:42.998
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:27:42.996Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:08.708
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:28:08.620Z] Requesting completion at position 63:25, between "\t\tOptional<Animalito> animalitoRecuperado = respositorioDeAnimalitos.findById(id);\n\t\tif(animalitoRecuperado." and ")\n\t\treturn Optional;\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:08.708
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:28:08.706Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-11-08 14:28:08.922
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:78)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:50)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:09.866
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:28:09.865Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 1158 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:09.867
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:09.866Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:09.982
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:09.980Z] request done: headerRequestId: [0160d099-67f1-404e-b4c2-7de5b141f9ba] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:09.982
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:09.980Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:19.586
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:28:19.517Z] Requesting completion at position 64:23, between "\t\tif(animalitoRecuperado.isPresent())\n\t\t\treturn new Optional." and "\n\t\treturn Optional;\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:19.586
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:28:19.584Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:20.271
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:28:20.270Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 686 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:20.271
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:20.271Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:20.297
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:20.296Z] request done: headerRequestId: [02de3a65-4865-48b1-aacb-f5abc9acfaba] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:20.297
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:20.295Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:20.380
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:28:20.378Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:20.381
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:28:20.316Z] Requesting completion at position 64:25, between "\t\tif(animalitoRecuperado.isPresent())\n\t\t\treturn new Optional.of" and "\n\t\treturn Optional;\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:20.955
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:28:20.954Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 576 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:20.957
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:20.955Z] request done: headerRequestId: [4bdcc554-a2c4-4d48-b1a7-3517cafed2bf] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:20.957
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:20.955Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:20.957
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:20.955Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:21.039
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:28:21.037Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:21.039
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:28:20.979Z] Requesting completion at position 64:28, between "\t\tif(animalitoRecuperado.isPresent())\n\t\t\treturn new Optional.of();" and "\n\t\treturn Optional;\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:21.230
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:28:21.227Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 190 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:21.230
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:21.229Z] request done: headerRequestId: [27806299-ff42-4d4f-aacf-f2f894a23fe7] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:21.231
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:21.228Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:21.231
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:21.228Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:31.807
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:28:31.739Z] Requesting completion at position 64:35, between "\t\tif(animalitoRecuperado.isPresent())\n\t\t\treturn new Optional.of(mapeador." and "toDatosAnimalito);\n\t\treturn Optional;\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:36.491
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:28:36.434Z] Requesting completion at position 64:52, between "\t\tif(animalitoRecuperado.isPresent())\n\t\t\treturn new Optional.of(mapeador.toDatosAnimalito." and ");\n\t\treturn Optional;\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:36.491
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:28:36.489Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:37.072
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:28:37.071Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 581 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:37.074
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:37.072Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:37.074
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:37.072Z] request done: headerRequestId: [d66fdfad-20fc-4136-9625-c9d0367f4a3b] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:37.075
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:37.072Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:37.475
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:28:37.418Z] Requesting completion at position 64:51, between "\t\tif(animalitoRecuperado.isPresent())\n\t\t\treturn new Optional.of(mapeador.toDatosAnimalito" and ");\n\t\treturn Optional;\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:37.476
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:28:37.474Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:37.960
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:28:37.959Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 485 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:37.962
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:37.960Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:37.962
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:37.960Z] request done: headerRequestId: [d5da40fc-6851-4225-9b3b-7f758056ef04] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:37.962
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:37.960Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:38.046
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:28:37.984Z] Requesting completion at position 64:47, between "\t\tif(animalitoRecuperado.isPresent())\n\t\t\treturn new Optional.of(mapeador.toDatosAnima" and ");\n\t\treturn Optional;\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:38.047
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:28:38.045Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:38.906
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:28:38.892Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 847 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:38.906
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:38.893Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:38.906
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:38.893Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:38.907
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:38.893Z] request done: headerRequestId: [3105c0c8-c49a-46ce-af2b-0a42ac551344] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:39.141
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:28:38.963Z] Requesting completion at position 64:45, between "\t\tif(animalitoRecuperado.isPresent())\n\t\t\treturn new Optional.of(mapeador.toDatosAni" and ");\n\t\treturn Optional;\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:39.141
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:28:39.031Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:40.193
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:28:40.192Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 1161 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:40.194
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:40.193Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:40.194
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:40.193Z] request done: headerRequestId: [de83ac62-24fb-4292-b1c8-f69ea74a2baa] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:40.194
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:28:40.193Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:28:53.549
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:28:53.478Z] Requesting completion at position 64:23, between "\t\tif(animalitoRecuperado.isPresent())\n\t\t\treturn new Optional." and "(mapeador.toDatosAnimalito(animalitoRecuperado.get()));\n\t\treturn Optional;\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:05.696
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:29:05.626Z] Requesting completion at position 65:18, between "\t\t\treturn new Optional.(mapeador.toDatosAnimalito(animalitoRecuperado.get()));\n\t\treturn Optional." and "\n\t}\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:05.696
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:29:05.695Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:05.876
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:29:05.869Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 174 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:05.876
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:05.870Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:05.879
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:05.870Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:05.879
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:05.870Z] request done: headerRequestId: [fbaaa8a1-6954-4549-a458-56d9bf80a6c1] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.008
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:29:06.006Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.008
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:29:05.938Z] Requesting completion at position 65:19, between "\t\t\treturn new Optional.(mapeador.toDatosAnimalito(animalitoRecuperado.get()));\n\t\treturn Optional.e" and "\n\t}\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.201
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:29:06.199Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 193 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.202
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:06.200Z] request done: headerRequestId: [67421181-9d90-49bd-b08b-84689cd7d7b9] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.202
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:06.200Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.202
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:06.200Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.285
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:29:06.281Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.285
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:29:06.219Z] Requesting completion at position 65:20, between "\t\t\treturn new Optional.(mapeador.toDatosAnimalito(animalitoRecuperado.get()));\n\t\treturn Optional.em" and "\n\t}\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.454
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:29:06.451Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 170 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.455
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:06.452Z] request done: headerRequestId: [9a64a512-8657-4a57-aa89-e0df62940883] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.455
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:06.452Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.455
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:06.452Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.537
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:29:06.536Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.537
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:29:06.481Z] Requesting completion at position 65:21, between "\t\t\treturn new Optional.(mapeador.toDatosAnimalito(animalitoRecuperado.get()));\n\t\treturn Optional.emp" and "\n\t}\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.733
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:06.731Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.733
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:06.731Z] request done: headerRequestId: [a6a15517-d08b-40f1-95dd-d68f39840411] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.733
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:06.731Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.733
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:29:06.730Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 194 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.811
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:29:06.753Z] Requesting completion at position 65:22, between "\t\t\treturn new Optional.(mapeador.toDatosAnimalito(animalitoRecuperado.get()));\n\t\treturn Optional.empt" and "\n\t}\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.812
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:29:06.809Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.976
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:29:06.976Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 167 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.978
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:06.976Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.978
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:06.977Z] request done: headerRequestId: [9dd1d9a1-83f8-43af-b88f-f58661e6b0af] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:06.978
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:06.976Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:07.062
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:29:07.001Z] Requesting completion at position 65:23, between "\t\t\treturn new Optional.(mapeador.toDatosAnimalito(animalitoRecuperado.get()));\n\t\treturn Optional.empty" and "\n\t}\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:07.063
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:29:07.060Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:07.208
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:29:07.205Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 145 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:07.208
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:07.206Z] request done: headerRequestId: [cadacc63-0950-4065-922f-9933a043bc6c] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:07.208
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:07.206Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:07.208
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:07.206Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:07.318
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:29:07.256Z] Requesting completion at position 65:24, between "\t\t\treturn new Optional.(mapeador.toDatosAnimalito(animalitoRecuperado.get()));\n\t\treturn Optional.empty(" and ")\n\t}\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:07.318
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:29:07.317Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:07.482
+!MESSAGE [Info]	[INFO] [default] [2023-11-08T13:29:07.480Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 163 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:07.482
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:07.481Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:07.482
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:07.481Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:07.482
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-08T13:29:07.481Z] request done: headerRequestId: [63d735d5-2e39-47cd-9728-a2f233cee625] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-08 14:29:13.210
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-08T13:29:13.147Z] Requesting completion at position 64:23, between "\t\tif(animalitoRecuperado.isPresent())\n\t\t\treturn new Optional." and "(mapeador.toDatosAnimalito(animalitoRecuperado.get()));\n\t\treturn Optional.empty();\n".

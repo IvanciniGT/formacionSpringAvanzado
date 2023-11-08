@@ -4,13 +4,11 @@ import com.fermin.animalitos.service.dto.DatosAnimalito;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.Value;
 
-@Data
+@Value
 @Builder
 @AllArgsConstructor
-@NoArgsConstructor
 public class NotificacionServicioAnimalitos {
 
 	public static enum TipoNotificacion {
@@ -19,6 +17,6 @@ public class NotificacionServicioAnimalitos {
 		MODIFICACION_ANIMALITO
 	}
 
-	private TipoNotificacion tipo;
-	private DatosAnimalito datosAnimalito;
+	TipoNotificacion tipo;
+	DatosAnimalito datosAnimalito;
 }

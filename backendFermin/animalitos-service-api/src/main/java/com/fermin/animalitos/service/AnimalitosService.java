@@ -17,5 +17,7 @@ public interface AnimalitosService {
 	List<DatosAnimalito> getAllAnimalitos();
 
 	void subscribe(Consumer<NotificacionServicioAnimalitos> consumidor);
+
+	void unsubscribe(Consumer<NotificacionServicioAnimalitos> consumidor);
 	
 }

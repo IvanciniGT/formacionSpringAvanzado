@@ -60,8 +60,8 @@ public class AnimalitosServiceSteps {
 			case "nombre":
 				this.datosDeNuevoAnimalito.setNombre(valor);
 				break;
-			case "tipo":
-				this.datosDeNuevoAnimalito.setTipo(valor);
+			//case "tipo":
+			//	this.datosDeNuevoAnimalito.setTipo(valor);
 		}	
 	}
 
