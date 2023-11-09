@@ -129,3 +129,21 @@ A Mockito le paso una Interfaz... y se encarga de montar una clase que extienda 
 - Objeto: null
 
 Y me permite a posteriori cambiar el comportamiento de esos retornos (de los que me interese, cuando me interese)
+
+---
+
+# Datos de usuarios
+
+USUARIOS
+ROLES
+GRUPOS
+
+# Datos de clientes
+
+EMPRESAS
+PERSONAS DE CONTACTO
+DIRECCIONES
+
+# CONTRATOS
+
+Contratos

@@ -1,7 +1,5 @@
 package com.fermin.animalitos.steps;
 
-import java.util.Optional;
-
 import org.junit.jupiter.api.Assertions;
 import org.springframework.beans.factory.annotation.Autowired;
 
