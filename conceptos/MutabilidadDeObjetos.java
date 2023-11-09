@@ -59,6 +59,7 @@ public class MutabilidadDeObjetos {
         void produce(){
             Dato d = new Dato(1);
             this.consumidores.forEach(consumidor->consumidor.accept(d));
+                                            //nuevaNotificacion(d)
         }
     }
 }

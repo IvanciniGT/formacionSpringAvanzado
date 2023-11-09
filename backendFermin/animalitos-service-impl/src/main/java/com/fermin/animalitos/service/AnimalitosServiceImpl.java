@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Consumer;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 
 import com.fermin.animalitos.entity.Animalito;
 import com.fermin.animalitos.repository.AnimalitosRepository;
@@ -19,11 +21,16 @@ import com.fermin.emails.service.EmailsService;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
+@Service
 public class AnimalitosServiceImpl implements AnimalitosService {
 
 	private final AnimalitosRepository respositorioDeAnimalitos;
 	private final EmailsService servicioDeEmails;
-	private final AnimalitosServiceMapper mapeador;
+	private final AnimalitosServiceMapper mapeador; 
+
+	//Inversión de dependencias: Los módulos de alta nivel no deben depender de implementaciones concretas de los modulos de bajo nivel
+	// Inyección de dependencias: Las clases no crean instancias de los objetos que necesitan.. sino que le son suministradas
+	
 	private final List<Consumer<NotificacionServicioAnimalitos>> consumidores = new ArrayList<>();
 	
 	@Value("animalitos.service.email.destinatario:altas@animalitosfermin.com")
@@ -66,7 +73,7 @@ public class AnimalitosServiceImpl implements AnimalitosService {
 
 	@Override
 	public List<DatosAnimalito> getAllAnimalitos(){
-		return respositorioDeAnimalitos.findAll().stream().map( mapeador::toDatosAnimalito ).toList();
+		return respositorioDeAnimalitos.findAll().stream().map( mapeador::toDatosAnimalito ).collect(Collectors.toList());
 	}
 
 	@Override
