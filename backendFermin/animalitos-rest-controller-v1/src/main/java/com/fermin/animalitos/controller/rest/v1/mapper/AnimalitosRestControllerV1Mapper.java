@@ -9,6 +9,9 @@ import com.fermin.animalitos.service.dto.DatosDeNuevoAnimalito;
 
 @Mapper
 public interface AnimalitosRestControllerV1Mapper {
+//	@Mappings({
+//		@Mapping (source = "nombre", target = "name")
+//	})
 	DatosDeNuevoAnimalito toDatosNuevoAnimalito(DatosDeNuevoAnimalitoRestV1 datosDeNuevoAnimalito);		
 	DatosAnimalitoRestV1 toDatosAnimalito(DatosAnimalito animalito);		
 }

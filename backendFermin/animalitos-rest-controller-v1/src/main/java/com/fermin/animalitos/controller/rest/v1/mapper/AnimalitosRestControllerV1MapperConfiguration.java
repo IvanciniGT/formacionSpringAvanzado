@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 public class AnimalitosRestControllerV1MapperConfiguration {
 
 	@Bean
-	public AnimalitosRestControllerV1Mapper configurarInstanciaDelAnimalitosServiceMapper() {
+	public AnimalitosRestControllerV1Mapper configurarInstanciaDelAnimalitosRestControllerV1Mapper() {
 		return Mappers.getMapper(AnimalitosRestControllerV1Mapper.class);
 	}
 	

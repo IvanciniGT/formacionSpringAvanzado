@@ -6,6 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="animalitos-service-impl" />
+        <module name="animalitos-persistence" />
+        <module name="emails-service-api" />
+        <module name="animalitos-service-api" />
       </profile>
       <profile name="Annotation profile for Backend del sistema de animalitos Fermin" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -17,12 +21,8 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
         </processorPath>
-        <module name="animalitos-service-impl" />
-        <module name="aplicacion-backend" />
-        <module name="animalitos-persistence" />
-        <module name="emails-service-api" />
         <module name="animalitos-rest-controller-v1" />
-        <module name="animalitos-service-api" />
+        <module name="aplicacion-backend" />
       </profile>
     </annotationProcessing>
   </component>

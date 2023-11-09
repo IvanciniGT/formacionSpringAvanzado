@@ -28,7 +28,18 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>animalitos-service-api</artifactId>
             <version>${project.version}</version>
-            <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>animalitos-service-impl</artifactId>
+            <version>${project.version}</version>
+            <scope>test</scope>
+        </dependency>              
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>emails-service-api</artifactId>
+            <version>${project.version}</version>
+            <scope>test</scope>
+        </dependency>        
     </dependencies>
 </project>
