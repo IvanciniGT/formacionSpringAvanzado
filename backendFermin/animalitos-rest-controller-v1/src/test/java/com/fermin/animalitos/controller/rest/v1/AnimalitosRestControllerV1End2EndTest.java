@@ -1,7 +1,7 @@
 package com.fermin.animalitos.controller.rest.v1;
 
 import org.json.JSONObject;
-
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -17,9 +17,15 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
+import java.util.Optional;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fermin.TestApplication;
+import com.fermin.animalitos.entity.Animalito;
 import com.fermin.animalitos.entity.TipoAnimalito;
+import com.fermin.animalitos.repository.AnimalitosRepository;
 import com.fermin.emails.service.EmailsService;
+import com.fermin.animalitos.controller.rest.v1.dto.DatosAnimalitoRestV1;
 
 @ExtendWith(SpringExtension.class)					// Que JUnit PUEDA solicitar datos a Spring
 @SpringBootTest(classes = TestApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)	// Arranca una app que he de tener configurada (De antemano) para que incluya mi Servicio
@@ -31,8 +37,11 @@ public class AnimalitosRestControllerV1End2EndTest {
 	private MockMvc clienteWeb;
 	@MockBean
 	private EmailsService emailsService;
-	AnimalitosRestControllerV1End2EndTest(@Autowired MockMvc clienteWeb){
+	
+	private final AnimalitosRepository animalitosRepository;
+	AnimalitosRestControllerV1End2EndTest(@Autowired MockMvc clienteWeb, @Autowired AnimalitosRepository animalitosRepository){
 		this.clienteWeb=clienteWeb;
+		this.animalitosRepository=animalitosRepository;
 	}
 
 	@Test
@@ -55,6 +64,14 @@ public class AnimalitosRestControllerV1End2EndTest {
 		resultado.andExpect(jsonPath("$.tipo").value(tipo.toString()));
 		resultado.andExpect(jsonPath("$.edad").value(edad));
 		resultado.andExpect(jsonPath("$.id").isNumber());
+		
+		DatosAnimalitoRestV1 respuesta = new ObjectMapper().readValue((resultado.andReturn().getResponse().getContentAsString()), DatosAnimalitoRestV1.class);
+		// Que en el repo se ha dado de alta el animalito
+		Optional<Animalito> animalitoPersistido = animalitosRepository.findById(respuesta.getId());
+		Assertions.assertTrue(animalitoPersistido.isPresent());
+		Assertions.assertEquals(nombre, animalitoPersistido.get().getNombre());
+		Assertions.assertEquals(edad, animalitoPersistido.get().getEdad());
+		Assertions.assertEquals(tipo, animalitoPersistido.get().getTipo());
 	}
 
 	@Test
