@@ -7421,3 +7421,1556 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:20:54.700
 !MESSAGE [Info]	[INFO] [default] [2023-11-09T09:20:54.696Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 766 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:51.382
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T09:57:51.380Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:51.383
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T09:57:51.351Z] Requesting completion at position 48:37, between "\t\tString nombre = \"Firulais\";\n\t\tTipoAnimalito tipo = TipoAnimalito." and "\n\t\t//Y \t\t\t\tese nuevo animalito tiene por \"tipo\": \"<tipo>\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:51.928
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T09:57:51.928Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 548 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:51.931
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T09:57:51.928Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:51.931
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T09:57:51.929Z] request done: headerRequestId: [1b3fd364-1d43-466b-b10c-a9d68417008c] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:51.931
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T09:57:51.928Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:53.290
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T09:57:53.289Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:53.291
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T09:57:53.268Z] Requesting completion at position 48:38, between "\t\tString nombre = \"Firulais\";\n\t\tTipoAnimalito tipo = TipoAnimalito.v" and "\n\t\t//Y \t\t\t\tese nuevo animalito tiene por \"tipo\": \"<tipo>\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:53.605
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T09:57:53.604Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 315 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:53.606
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T09:57:53.605Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:53.606
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T09:57:53.605Z] request done: headerRequestId: [9b954a17-6fa6-4403-910e-a5c50d26df44] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:53.607
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T09:57:53.604Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:53.649
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T09:57:53.642Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:53.650
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T09:57:53.623Z] Requesting completion at position 48:39, between "\t\tString nombre = \"Firulais\";\n\t\tTipoAnimalito tipo = TipoAnimalito.va" and "\n\t\t//Y \t\t\t\tese nuevo animalito tiene por \"tipo\": \"<tipo>\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:54.274
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T09:57:54.273Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 631 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:54.275
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T09:57:54.274Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:54.276
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T09:57:54.274Z] request done: headerRequestId: [a754b73c-4fae-477d-89f8-3b277566333c] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:57:54.276
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T09:57:54.274Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:58:01.855
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T09:58:01.853Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:58:01.855
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T09:58:01.830Z] Requesting completion at position 48:58, between "\t\tString nombre = \"Firulais\";\n\t\tTipoAnimalito tipo = TipoAnimalito.valueOf(tipoAsString." and ")\n\t\t//Y \t\t\t\tese nuevo animalito tiene por \"tipo\": \"<tipo>\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:58:02.314
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T09:58:02.313Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:58:02.314
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T09:58:02.313Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:58:02.314
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T09:58:02.313Z] request done: headerRequestId: [07eeb72f-1954-4d0c-bc2b-14d443f3a9a6] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:58:02.315
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T09:58:02.312Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 458 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:58:02.373
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T09:58:02.371Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:58:02.373
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T09:58:02.350Z] Requesting completion at position 48:59, between "\t\tString nombre = \"Firulais\";\n\t\tTipoAnimalito tipo = TipoAnimalito.valueOf(tipoAsString.t" and ")\n\t\t//Y \t\t\t\tese nuevo animalito tiene por \"tipo\": \"<tipo>\"\n".
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-11-09 10:58:02.652
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:78)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:50)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:58:02.776
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T09:58:02.774Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 403 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:58:02.777
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T09:58:02.775Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:58:02.777
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T09:58:02.775Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 10:58:02.777
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T09:58:02.775Z] request done: headerRequestId: [8cbc8d99-8241-4069-af34-01af2076d13a] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:16.766
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:06:16.764Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:16.767
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:06:16.730Z] Requesting completion at position 54:60, between "\t\t//Cuando\t\t\tse solicita al servicio de animalitos el alta de ese nuevo animalito\n\t\tDatosAnimalito datosAnimalitoDevuelto = animalitosService." and "\n\t\t//Entonces\t\t\tse devuelve un os datos de animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:17.958
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:06:17.957Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 1193 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:17.960
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:06:17.958Z] request done: headerRequestId: [466a9399-f1e3-49b3-b105-155fc734a09a] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:17.960
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:06:17.958Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:17.960
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:06:17.958Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:18.005
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:06:18.003Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:18.005
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:06:17.978Z] Requesting completion at position 54:64, between "\t\t//Cuando\t\t\tse solicita al servicio de animalitos el alta de ese nuevo animalito\n\t\tDatosAnimalito datosAnimalitoDevuelto = animalitosService.alta" and "\n\t\t//Entonces\t\t\tse devuelve un os datos de animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:18.850
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:06:18.849Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 846 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:18.852
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:06:18.850Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:18.852
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:06:18.850Z] request done: headerRequestId: [3236fb02-2e38-4e68-8ef5-3fdd9f22dfad] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:18.852
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:06:18.850Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:40.336
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:06:40.305Z] Requesting completion at position 57:13, between "\t\t//Entonces\t\t\tse devuelve un os datos de animalito\n\t\tAssertions." and "\n\t\t//Y \t\t\t\tlos datos del animalito tienen por \"id\": 33\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:40.336
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:06:40.334Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:40.789
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:06:40.788Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 454 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:40.791
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:06:40.789Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:40.791
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:06:40.789Z] request done: headerRequestId: [64ea7dd0-6a4a-4b1d-88c5-c82b8adf07d8] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:40.791
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:06:40.789Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:40.904
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:06:40.901Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:40.905
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:06:40.857Z] Requesting completion at position 57:15, between "\t\t//Entonces\t\t\tse devuelve un os datos de animalito\n\t\tAssertions.as" and "\n\t\t//Y \t\t\t\tlos datos del animalito tienen por \"id\": 33\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:41.668
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:06:41.667Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 766 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:41.669
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:06:41.668Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:41.670
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:06:41.668Z] request done: headerRequestId: [068e3080-6c62-407a-93d5-6d2275f49f8d] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:41.670
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:06:41.668Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:41.757
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:06:41.755Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:41.757
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:06:41.730Z] Requesting completion at position 57:16, between "\t\t//Entonces\t\t\tse devuelve un os datos de animalito\n\t\tAssertions.ass" and "\n\t\t//Y \t\t\t\tlos datos del animalito tienen por \"id\": 33\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:41.911
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:06:41.910Z] request done: headerRequestId: [32f8c371-6ba8-4295-95d3-ea208f4879fe] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:06:41.911
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:06:41.910Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 154 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:25.077
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:07:25.044Z] Requesting completion at position 60:53, between "\t\t//Y \t\t\t\tlos datos del animalito tienen por \"id\": 33\n\t\tAssertions.assertEquals(33, datosAnimalitoDevuelto." and ");\n\t\t//Y \t\t\t\tlos datos del animalito tienen por \"nombre\": \"<nombre>\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:25.077
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:07:25.075Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:25.559
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:07:25.558Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 483 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:25.561
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:07:25.559Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:25.561
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:07:25.559Z] request done: headerRequestId: [0fb5bdec-4255-4081-a787-783331f838e6] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:25.561
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:07:25.559Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:25.604
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:07:25.602Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:25.604
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:07:25.577Z] Requesting completion at position 60:56, between "\t\t//Y \t\t\t\tlos datos del animalito tienen por \"id\": 33\n\t\tAssertions.assertEquals(33, datosAnimalitoDevuelto.get" and ");\n\t\t//Y \t\t\t\tlos datos del animalito tienen por \"nombre\": \"<nombre>\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:26.034
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:07:26.033Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 431 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:26.035
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:07:26.034Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:26.036
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:07:26.034Z] request done: headerRequestId: [bf092335-084c-4846-82ea-942cb1f4eccb] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:26.036
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:07:26.034Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:26.281
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:07:26.256Z] Requesting completion at position 60:57, between "\t\t//Y \t\t\t\tlos datos del animalito tienen por \"id\": 33\n\t\tAssertions.assertEquals(33, datosAnimalitoDevuelto.getI" and ");\n\t\t//Y \t\t\t\tlos datos del animalito tienen por \"nombre\": \"<nombre>\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:26.281
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:07:26.280Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:26.939
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:07:26.938Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 658 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:26.941
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:07:26.939Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:26.941
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:07:26.938Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:26.941
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:07:26.939Z] request done: headerRequestId: [039a5233-2c29-430d-afdc-d4ae06f21700] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:27.045
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:07:26.994Z] Requesting completion at position 60:60, between "\t\t//Y \t\t\t\tlos datos del animalito tienen por \"id\": 33\n\t\tAssertions.assertEquals(33, datosAnimalitoDevuelto.getId()" and ");\n\t\t//Y \t\t\t\tlos datos del animalito tienen por \"nombre\": \"<nombre>\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:27.045
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:07:27.039Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:37.076
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:07:37.074Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:37.076
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:07:37.074Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 10035 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:37.077
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:07:37.075Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:07:37.077
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:07:37.075Z] request done: headerRequestId: [0662f89a-ae84-4d2b-8f71-0d13ad25e6f7] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:08:06.680
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:08:06.650Z] Requesting completion at position 64:48, between "\t\t//Y \t\t\t\tlos datos del animalito tienen por \"tipo\": \"<tipo>\"\n\t\tAssertions.assertEquals(datosDeNuevoAnimalito." and ", datosAnimalitoDevuelto.getTipo());\n\t\t//Y \t\t\t\tlos datos del animalito tienen por \"edad\": <edad>\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:36.360
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:09:36.332Z] Requesting completion at position 52:29, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\twhen(animalitosRepository)." and "\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:36.360
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:09:36.358Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:37.228
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:09:37.227Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 869 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:37.251
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:09:37.250Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:37.347
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:09:37.346Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:37.347
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:09:37.346Z] request done: headerRequestId: [7c3bf493-3b84-4f39-bed9-ae4278ebb686] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:44.380
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:09:44.378Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:44.380
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:09:44.353Z] Requesting completion at position 52:28, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\twhen(animalitosRepository)" and "\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:45.399
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:09:45.398Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 1020 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:45.428
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:09:45.428Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:45.430
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:09:45.428Z] request done: headerRequestId: [b156ebb0-832a-4fe6-814e-07c260299313] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:45.431
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:09:45.428Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:45.487
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:09:45.464Z] Requesting completion at position 52:28, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\twhen(animalitosRepository." and "\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:45.487
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:09:45.486Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:46.382
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:09:46.381Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 895 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:46.394
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:09:46.394Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:46.445
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:09:46.443Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:46.446
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:09:46.444Z] request done: headerRequestId: [15e49f9f-cd62-4b3a-9a14-58e40faabe47] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:46.489
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:09:46.487Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:46.490
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:09:46.467Z] Requesting completion at position 52:32, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\twhen(animalitosRepository.save" and "\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:47.574
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:09:47.574Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 1087 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:47.576
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:09:47.575Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:47.577
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:09:47.576Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:09:47.578
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:09:47.576Z] request done: headerRequestId: [77be27ca-a451-4345-9d5d-63244449f731] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:01.710
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:10:01.682Z] Requesting completion at position 52:47, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\twhen(animalitosRepository.save(any(Animalito." and "))\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:01.710
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:01.709Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:02.447
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:02.447Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 737 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:02.449
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:02.448Z] request done: headerRequestId: [f149109d-8a9b-4429-88be-fafe2d026509] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:02.450
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:02.448Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:02.450
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:02.447Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:02.499
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:10:02.474Z] Requesting completion at position 52:52, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\twhen(animalitosRepository.save(any(Animalito.class" and "))\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:02.500
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:02.497Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:03.665
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:03.664Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 1167 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:03.666
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:03.665Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:03.667
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:03.665Z] request done: headerRequestId: [07cf918e-a0b1-4367-9c97-057bdcef4bc1] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:03.667
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:03.665Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:13.734
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:10:13.703Z] Requesting completion at position 54:55, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\twhen(animalitosRepository.save(any(Animalito.class))." and "\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:13.734
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:13.732Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:14.805
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:14.804Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 1072 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:14.807
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:14.805Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:14.808
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:14.806Z] request done: headerRequestId: [4f889c96-a782-4ae7-9ac3-f1024f5dbceb] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:14.808
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:14.805Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:14.849
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:14.847Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:14.849
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:10:14.827Z] Requesting completion at position 54:59, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\twhen(animalitosRepository.save(any(Animalito.class)).then" and "\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:15.711
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:15.710Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 863 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:15.713
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:15.711Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:15.713
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:15.711Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:15.713
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:15.712Z] request done: headerRequestId: [c7268d1d-c84f-49ea-ab35-76accc42515a] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:15.892
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:10:15.867Z] Requesting completion at position 54:60, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\twhen(animalitosRepository.save(any(Animalito.class)).thenR" and "\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:15.893
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:15.891Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:16.856
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:16.855Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 964 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:16.857
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:16.855Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:16.857
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:16.856Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:16.857
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:16.856Z] request done: headerRequestId: [ca1b453f-29f0-498a-b85b-9fd0b4f9a52a] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:16.902
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:16.900Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:16.902
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:10:16.879Z] Requesting completion at position 54:65, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\twhen(animalitosRepository.save(any(Animalito.class)).thenReturn" and "\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:17.717
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:17.716Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 816 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:17.717
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:17.717Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:17.861
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:17.859Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:17.861
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:17.859Z] request done: headerRequestId: [9c755ad6-7da3-4462-b3dd-a3a9eb687ee5] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:19.109
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:10:19.087Z] Requesting completion at position 54:66, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\twhen(animalitosRepository.save(any(Animalito.class)).thenReturn(" and ")\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:19.109
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:19.107Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:19.818
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:19.817Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 710 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:19.820
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:19.818Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:19.820
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:19.818Z] request done: headerRequestId: [f8f0f9d5-4fa7-4616-ab0b-77f5b4e62978] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:19.820
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:19.818Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:20.189
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:10:20.169Z] Requesting completion at position 54:68, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\twhen(animalitosRepository.save(any(Animalito.class)).thenReturn();" and "\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:20.189
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:20.187Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:20.485
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:20.484Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 296 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:20.485
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:20.484Z] request done: headerRequestId: [82c0d56a-28ba-4b06-a961-a91788ee7b01] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:20.485
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:20.484Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:20.485
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:20.484Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:56.397
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:10:56.370Z] Requesting completion at position 54:39, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito." and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:56.397
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:56.395Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:57.326
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:57.325Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 930 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:57.327
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:57.326Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:57.329
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:57.327Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:57.329
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:57.327Z] request done: headerRequestId: [0dafe7ab-0965-4f00-a6eb-3f1880af7b19] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:57.370
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:10:57.346Z] Requesting completion at position 54:44, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.build" and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:57.370
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:57.368Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:58.116
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:58.115Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 747 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:58.117
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:58.116Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:58.117
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:58.116Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:58.118
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:58.116Z] request done: headerRequestId: [1ef8a542-1500-4564-9e4e-aefcf8d8bfff] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:58.154
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:10:58.133Z] Requesting completion at position 54:48, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder()" and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:58.154
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:58.152Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:58.771
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:10:58.771Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 619 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:58.773
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:58.771Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:58.773
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:58.772Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:10:58.773
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:10:58.772Z] request done: headerRequestId: [e4764493-52bb-4b28-9c42-c7bf2c2aed29] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:00.713
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:00.691Z] Requesting completion at position 54:49, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder()." and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:00.713
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:00.711Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:01.428
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:01.427Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 716 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:01.430
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:01.428Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:01.430
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:01.429Z] request done: headerRequestId: [17b249f3-42bf-47c0-9b49-04635cceff9d] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:01.430
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:01.428Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:01.468
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:01.466Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:01.468
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:01.447Z] Requesting completion at position 54:51, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder().id" and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:02.082
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:02.081Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 615 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:02.084
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:02.083Z] request done: headerRequestId: [babfb305-cfff-4e99-9ad5-27a5a80111e4] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:02.084
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:02.082Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:02.085
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:02.082Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:02.139
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:02.117Z] Requesting completion at position 54:52, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder().id(" and ")\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:02.139
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:02.137Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:03.908
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:03.908Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 1771 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:03.910
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:03.908Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:03.911
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:03.909Z] request done: headerRequestId: [2edcfef6-ce81-42bf-b639-eab2489302bb] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:03.911
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:03.909Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:03.936
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:03.915Z] Requesting completion at position 54:54, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33" and ")\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:03.937
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:03.935Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:05.991
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:05.990Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 2055 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:05.993
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:05.990Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:05.993
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:05.991Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:05.993
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:05.991Z] request done: headerRequestId: [e4d2f4e2-e1ce-4705-a38e-b4e89d69211d] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:06.032
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:06.030Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:06.032
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:06.012Z] Requesting completion at position 54:56, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33)." and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:06.685
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:06.684Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 654 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:06.686
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:06.685Z] request done: headerRequestId: [b9fc2b73-bf79-4954-976e-b9d5e3163e38] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:06.686
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:06.685Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:06.686
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:06.684Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:17.718
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:17.716Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:17.718
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:17.688Z] Requesting completion at position 54:72, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombre)." and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:18.553
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:18.553Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 837 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:18.555
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:18.553Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:18.555
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:18.554Z] request done: headerRequestId: [cfdeedc5-da1f-4e9b-8589-68ba394f7608] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:18.555
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:18.553Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:18.593
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:18.592Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:18.594
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:18.571Z] Requesting completion at position 54:76, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombre).edad" and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:19.246
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:19.245Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 653 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:19.248
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:19.246Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:19.248
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:19.246Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:19.248
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:19.247Z] request done: headerRequestId: [2bc17e40-6f79-4600-bb16-9bd0ba6ee6a2] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:19.350
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:19.313Z] Requesting completion at position 54:80, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombre).edad(eda" and ")\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:19.350
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:19.348Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-11-09 11:11:19.613
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:78)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:50)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:20.259
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:20.238Z] Requesting completion at position 54:83, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombre).edad(edad)." and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:20.259
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:20.257Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:21.331
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:21.330Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 1073 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:21.332
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:21.331Z] request done: headerRequestId: [339b0cba-77d3-4e6e-9683-2896d4c67d64] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:21.333
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:21.331Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:21.333
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:21.331Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:21.373
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:21.350Z] Requesting completion at position 54:87, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombre).edad(edad).tipo" and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:21.374
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:21.371Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:22.016
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:22.014Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 643 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:22.018
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:22.015Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:22.019
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:22.015Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:22.019
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:22.015Z] request done: headerRequestId: [6f4ad06d-612b-48e6-bc93-9924ab51397f] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:22.079
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:22.078Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:22.080
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:22.057Z] Requesting completion at position 54:89, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombre).edad(edad).tipo()" and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:22.291
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:22.289Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 211 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:22.291
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:22.290Z] request done: headerRequestId: [87f2d532-144c-4c1f-8935-d8954f64024f] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:22.291
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:22.290Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:22.292
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:22.290Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:57.312
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:57.281Z] Requesting completion at position 55:103, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombre).edad(edad).tipo(tipoAnimalito)." and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:57.312
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:57.310Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:57.534
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:57.532Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:57.534
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:57.533Z] request done: headerRequestId: [3053cdd4-7189-40ed-a96b-74768b2a1788] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:57.534
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:57.532Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:57.535
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:57.532Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 222 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:57.624
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:57.622Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:57.624
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:57.601Z] Requesting completion at position 55:104, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombre).edad(edad).tipo(tipoAnimalito).b" and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:57.879
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:57.879Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 256 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:57.881
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:57.879Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:57.881
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:57.879Z] request done: headerRequestId: [f0d72ca6-37ba-4427-b1fe-ed6b7246e488] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:57.881
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:57.879Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:57.919
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:57.917Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:57.919
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:57.897Z] Requesting completion at position 55:106, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombre).edad(edad).tipo(tipoAnimalito).bui" and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.114
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:58.112Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.114
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:58.112Z] request done: headerRequestId: [f5b441e8-aacc-49ea-964d-2479b8970508] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.115
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:58.111Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 194 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.115
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:58.112Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.154
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:58.132Z] Requesting completion at position 55:108, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombre).edad(edad).tipo(tipoAnimalito).build" and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.154
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:58.153Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.337
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:58.335Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 182 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.337
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:58.335Z] request done: headerRequestId: [72aed2fe-43a6-470e-8c09-035a04709a77] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.337
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:58.335Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.337
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:58.335Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.518
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:58.516Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.519
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:58.496Z] Requesting completion at position 55:110, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombre).edad(edad).tipo(tipoAnimalito).build()" and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.685
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:58.684Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 168 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.687
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:58.685Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.687
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:58.686Z] request done: headerRequestId: [b79cea60-0b72-4858-af11-72aaae0e12fe] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.688
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:58.685Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.800
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:11:58.775Z] Requesting completion at position 55:111, between "\t\t// Y \t\t\t\tUn repositorio de Animalitos de mentirijilla, que siempre devuelve los mismos datos que recibe con id 33 \t√ FAKE\n\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombre).edad(edad).tipo(tipoAnimalito).build();" and "\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenReturn(nuevoAnimalito);\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.800
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:58.798Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.974
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:11:58.972Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 174 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.974
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:58.973Z] request done: headerRequestId: [4721b867-e9ac-415e-af89-f104fd0df185] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.975
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:58.973Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:11:58.975
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:11:58.973Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:45.909
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:17:45.907Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:45.909
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:17:45.878Z] Requesting completion at position 83:24, between "\t\t// Pasame los datos con los que se haya llamado a la función enviarEmail del EmailService\n\t\tverify(emailsService)." and "\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:46.748
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:17:46.747Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 840 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:46.750
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:17:46.748Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:46.750
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:17:46.748Z] request done: headerRequestId: [2c1cb3fd-0250-448d-a6d8-032e6640f6cc] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:46.750
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:17:46.748Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:46.791
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:17:46.764Z] Requesting completion at position 83:28, between "\t\t// Pasame los datos con los que se haya llamado a la función enviarEmail del EmailService\n\t\tverify(emailsService).save" and "\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:46.791
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:17:46.789Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:47.421
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:17:47.420Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 630 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:47.423
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:17:47.421Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:47.423
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:17:47.421Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:47.423
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:17:47.421Z] request done: headerRequestId: [1a435a81-d4bf-4fbe-8798-d082e31cb6e0] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:48.378
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:17:48.352Z] Requesting completion at position 83:29, between "\t\t// Pasame los datos con los que se haya llamado a la función enviarEmail del EmailService\n\t\tverify(emailsService).save(" and ")\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:48.378
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:17:48.376Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:48.926
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:17:48.925Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 548 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:48.926
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:17:48.926Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:49.114
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:17:49.112Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:49.115
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:17:49.113Z] request done: headerRequestId: [b19fef2c-60db-400b-a3d4-e265ddd70416] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:17:51.337
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:17:51.314Z] Requesting completion at position 83:28, between "\t\t// Pasame los datos con los que se haya llamado a la función enviarEmail del EmailService\n\t\tverify(emailsService).save" and "()\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:18:55.858
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:18:55.827Z] Requesting completion at position 84:24, between "\t\t// Pasame los datos con los que se haya llamado a la función enviarEmail del EmailService\n\t\tverify(emailsService)." and "();\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:10.738
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:19:10.708Z] Requesting completion at position 84:54, between "\t\t// Pasame los datos con los que se haya llamado a la función enviarEmail del EmailService\n\t\tverify(emailsService).enviarEmail(destinatarioEmail." and ", nombre, tipo)\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:18.223
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:19:18.194Z] Requesting completion at position 84:77, between "\t\t// Pasame los datos con los que se haya llamado a la función enviarEmail del EmailService\n\t\tverify(emailsService).enviarEmail(destinatarioEmail.capture(), asuntoEmail." and ", tipo)\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:24.059
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:19:24.029Z] Requesting completion at position 84:100, between "\t\t// Pasame los datos con los que se haya llamado a la función enviarEmail del EmailService\n\t\tverify(emailsService).enviarEmail(destinatarioEmail.capture(), asuntoEmail.capture(), cuerpoEmail." and ")\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:24.059
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:19:24.058Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:24.427
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:19:24.425Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:24.428
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:19:24.425Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:24.428
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:19:24.426Z] request done: headerRequestId: [f45d3661-84b3-4243-b9fc-2bf26dd0f7f3] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:24.428
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:19:24.425Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 367 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:24.471
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:19:24.443Z] Requesting completion at position 84:102, between "\t\t// Pasame los datos con los que se haya llamado a la función enviarEmail del EmailService\n\t\tverify(emailsService).enviarEmail(destinatarioEmail.capture(), asuntoEmail.capture(), cuerpoEmail.ca" and ")\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:24.471
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:19:24.469Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:24.721
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:19:24.718Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:24.721
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:19:24.719Z] request done: headerRequestId: [220a44e7-05df-4027-adf4-48293e5ea6dc] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:24.721
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:19:24.719Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:24.721
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:19:24.718Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 249 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:24.764
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:19:24.738Z] Requesting completion at position 84:104, between "\t\t// Pasame los datos con los que se haya llamado a la función enviarEmail del EmailService\n\t\tverify(emailsService).enviarEmail(destinatarioEmail.capture(), asuntoEmail.capture(), cuerpoEmail.capt" and ")\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:24.765
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:19:24.763Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:25.131
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:19:25.130Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 367 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:25.133
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:19:25.131Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:25.133
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:19:25.131Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:25.134
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:19:25.131Z] request done: headerRequestId: [ced8333b-aa0f-4543-a5ac-ad83a1590f4d] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:25.202
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:19:25.175Z] Requesting completion at position 84:107, between "\t\t// Pasame los datos con los que se haya llamado a la función enviarEmail del EmailService\n\t\tverify(emailsService).enviarEmail(destinatarioEmail.capture(), asuntoEmail.capture(), cuerpoEmail.capture" and ")\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:25.202
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:19:25.201Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:25.426
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:19:25.426Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 225 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:25.428
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:19:25.426Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:25.428
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:19:25.426Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:25.428
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:19:25.427Z] request done: headerRequestId: [4465f54f-27d3-4ff6-82af-3f37fd11c981] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:25.664
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:19:25.660Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:25.664
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:19:25.631Z] Requesting completion at position 84:108, between "\t\t// Pasame los datos con los que se haya llamado a la función enviarEmail del EmailService\n\t\tverify(emailsService).enviarEmail(destinatarioEmail.capture(), asuntoEmail.capture(), cuerpoEmail.capture(" and "))\n\t\t\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:25.977
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:19:25.976Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:25.978
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:19:25.976Z] request done: headerRequestId: [7f45225c-05f7-4b5f-be7e-ec39f6df5e33] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:25.978
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:19:25.975Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 315 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:19:25.978
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:19:25.976Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:10.715
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:20:10.682Z] Requesting completion at position 87:13, between "\t\t//Y         \t\ty se debe haber solicitado el envío de un email al usuario \"altas@animalitosfermin.com\"\n\t\tAssertions." and "\n\t\t//Y         \t\ty el correo solicitado debe tener por asunto: \"Nuevo animalito\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:10.716
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:10.714Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:11.200
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:11.198Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:11.200
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:11.198Z] request done: headerRequestId: [d5fe7b80-bdb3-4217-aae5-1d49e4a64b78] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:11.200
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:11.198Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:11.200
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:11.197Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 483 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:11.253
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:11.252Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:11.254
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:20:11.225Z] Requesting completion at position 87:16, between "\t\t//Y         \t\ty se debe haber solicitado el envío de un email al usuario \"altas@animalitosfermin.com\"\n\t\tAssertions.ass" and "\n\t\t//Y         \t\ty el correo solicitado debe tener por asunto: \"Nuevo animalito\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:11.348
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:11.348Z] request done: headerRequestId: [f9c758c5-4df8-41b8-a237-09c20fd4d10f] model deployment ID: []
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:11.349
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:11.347Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 95 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:45.631
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:45.629Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:45.631
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:20:45.596Z] Requesting completion at position 88:74, between "\t\t//Y         \t\ty se debe haber solicitado el envío de un email al usuario \"altas@animalitosfermin.com\"\n\t\tAssertions.assertEquals(\"altas@animalitosfermin.com\", destinatarioEmail." and "\n\t\t//Y         \t\ty el correo solicitado debe tener por asunto: \"Nuevo animalito\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:46.079
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:46.078Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 449 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:46.080
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:46.079Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:46.081
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:46.079Z] request done: headerRequestId: [bb6f9c16-7681-4d2f-b1e6-8f6e5ffba52f] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:46.081
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:46.079Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:46.125
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:46.124Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:46.126
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:20:46.099Z] Requesting completion at position 88:77, between "\t\t//Y         \t\ty se debe haber solicitado el envío de un email al usuario \"altas@animalitosfermin.com\"\n\t\tAssertions.assertEquals(\"altas@animalitosfermin.com\", destinatarioEmail.get" and "\n\t\t//Y         \t\ty el correo solicitado debe tener por asunto: \"Nuevo animalito\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:46.751
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:46.748Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 624 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:46.751
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:46.749Z] request done: headerRequestId: [22e1e2d1-f3b0-4c29-bc6b-ab043a511887] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:46.751
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:46.749Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:46.751
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:46.749Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:46.797
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:20:46.770Z] Requesting completion at position 88:81, between "\t\t//Y         \t\ty se debe haber solicitado el envío de un email al usuario \"altas@animalitosfermin.com\"\n\t\tAssertions.assertEquals(\"altas@animalitosfermin.com\", destinatarioEmail.getValu" and "\n\t\t//Y         \t\ty el correo solicitado debe tener por asunto: \"Nuevo animalito\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:46.797
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:46.796Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:47.135
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:47.134Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:47.136
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:47.134Z] request done: headerRequestId: [ae856f22-ed86-4df9-a9ea-6ebb175db4d3] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:47.136
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:47.133Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 337 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:47.136
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:47.134Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:47.199
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:20:47.170Z] Requesting completion at position 88:84, between "\t\t//Y         \t\ty se debe haber solicitado el envío de un email al usuario \"altas@animalitosfermin.com\"\n\t\tAssertions.assertEquals(\"altas@animalitosfermin.com\", destinatarioEmail.getValue()" and "\n\t\t//Y         \t\ty el correo solicitado debe tener por asunto: \"Nuevo animalito\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:47.199
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:47.196Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:47.555
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:47.555Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 359 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:47.557
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:47.555Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:47.557
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:47.555Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:47.557
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:47.555Z] request done: headerRequestId: [fa2a31c1-b019-48c9-90c9-944b3f4c3e2a] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:47.731
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:47.729Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:47.731
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:20:47.691Z] Requesting completion at position 88:85, between "\t\t//Y         \t\ty se debe haber solicitado el envío de un email al usuario \"altas@animalitosfermin.com\"\n\t\tAssertions.assertEquals(\"altas@animalitosfermin.com\", destinatarioEmail.getValue())" and "\n\t\t//Y         \t\ty el correo solicitado debe tener por asunto: \"Nuevo animalito\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:47.996
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:47.993Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 264 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:47.996
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:47.994Z] request done: headerRequestId: [902ee8f0-d9be-48f8-a39c-00758682c56c] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:47.996
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:47.994Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:47.996
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:47.994Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:48.075
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:20:48.048Z] Requesting completion at position 88:87, between "\t\t//Y         \t\ty se debe haber solicitado el envío de un email al usuario \"altas@animalitosfermin.com\"\n\t\tAssertions.assertEquals(\"altas@animalitosfermin.com\", destinatarioEmail.getValue());:" and "\n\t\t//Y         \t\ty el correo solicitado debe tener por asunto: \"Nuevo animalito\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:48.075
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:48.073Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:48.273
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:48.272Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 199 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:48.273
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:48.272Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:48.273
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:48.273Z] request done: headerRequestId: [1b7c8ebf-d1f9-4a89-81a2-82c7f5045d84] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:48.273
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:48.273Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:48.623
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:20:48.593Z] Requesting completion at position 88:86, between "\t\t//Y         \t\ty se debe haber solicitado el envío de un email al usuario \"altas@animalitosfermin.com\"\n\t\tAssertions.assertEquals(\"altas@animalitosfermin.com\", destinatarioEmail.getValue());" and "\n\t\t//Y         \t\ty el correo solicitado debe tener por asunto: \"Nuevo animalito\"\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:48.623
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:48.620Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:48.827
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:48.826Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:48.827
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:20:48.825Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 205 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:48.827
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:48.826Z] request done: headerRequestId: [002c124e-45a6-449d-8178-27a8b9ffbc03] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:20:48.827
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:20:48.826Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:13.741
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:33:13.738Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:13.742
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:33:13.700Z] Requesting completion at position 86:31, between "\t\t// Asegurarme que se ha llamado al repo con los datos adecuados\n\t\tverify(animalitosRepository)." and "\n\t\t// Aseguramos que se haya llamado a la función enviar Email y sacamos los datos copn los que se ha llamado:\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:14.143
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:33:14.142Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 404 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:14.145
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:33:14.143Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:14.146
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:33:14.144Z] request done: headerRequestId: [25304fba-f273-4fca-9cf4-a6b9aff4c16a] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:14.146
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:33:14.143Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:14.195
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:33:14.194Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:14.196
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:33:14.166Z] Requesting completion at position 86:32, between "\t\t// Asegurarme que se ha llamado al repo con los datos adecuados\n\t\tverify(animalitosRepository).s" and "\n\t\t// Aseguramos que se haya llamado a la función enviar Email y sacamos los datos copn los que se ha llamado:\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:14.531
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:33:14.530Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 336 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:14.533
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:33:14.531Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:14.533
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:33:14.531Z] request done: headerRequestId: [9df3a9b0-52ea-4007-a3b1-c12ee9f1f763] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:14.533
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:33:14.531Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:14.580
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:33:14.552Z] Requesting completion at position 86:35, between "\t\t// Asegurarme que se ha llamado al repo con los datos adecuados\n\t\tverify(animalitosRepository).save" and "\n\t\t// Aseguramos que se haya llamado a la función enviar Email y sacamos los datos copn los que se ha llamado:\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:14.581
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:33:14.579Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:14.827
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:33:14.826Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 247 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:14.830
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:33:14.827Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:14.830
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:33:14.827Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:14.830
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:33:14.827Z] request done: headerRequestId: [d7ae3643-7f92-4e4a-a3e1-94fdc9aee59c] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:21.303
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:33:21.268Z] Requesting completion at position 86:46, between "\t\t// Asegurarme que se ha llamado al repo con los datos adecuados\n\t\tverify(animalitosRepository).save(animalito." and ");\n\t\t// Aseguramos que se haya llamado a la función enviar Email y sacamos los datos copn los que se ha llamado:\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:21.303
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:33:21.301Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-11-09 11:33:21.571
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:78)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:50)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:21.633
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:33:21.630Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:21.633
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:33:21.630Z] request done: headerRequestId: [e31b44d8-c74e-4d00-905b-f34781ab3b1a] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:21.633
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:33:21.630Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:33:21.633
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:33:21.629Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 328 ms
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-11-09 11:33:46.061
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:35.833
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:34:35.831Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:35.833
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:34:35.795Z] Requesting completion at position 87:29, between "\t\tverify(animalitosRepository).save(animalito.capture());\n\t\tvalidarAnimalito(animalito." and ")\n\t\t// Aseguramos que se haya llamado a la función enviar Email y sacamos los datos copn los que se ha llamado:\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:36.281
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:34:36.280Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 449 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:36.283
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:34:36.282Z] request done: headerRequestId: [5b803142-0139-4f98-b6d3-d53940ece993] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:36.284
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:34:36.281Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:36.284
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:34:36.281Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:36.328
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:34:36.300Z] Requesting completion at position 87:32, between "\t\tverify(animalitosRepository).save(animalito.capture());\n\t\tvalidarAnimalito(animalito.get" and ")\n\t\t// Aseguramos que se haya llamado a la función enviar Email y sacamos los datos copn los que se ha llamado:\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:36.329
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:34:36.327Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:36.710
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:34:36.710Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 382 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:36.713
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:34:36.710Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:36.713
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:34:36.711Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:36.713
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:34:36.711Z] request done: headerRequestId: [f9ee6f46-0b94-4475-8c95-53de114f3eee] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:36.772
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:34:36.771Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:36.772
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:34:36.744Z] Requesting completion at position 87:33, between "\t\tverify(animalitosRepository).save(animalito.capture());\n\t\tvalidarAnimalito(animalito.getV" and ")\n\t\t// Aseguramos que se haya llamado a la función enviar Email y sacamos los datos copn los que se ha llamado:\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:37.362
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:34:37.361Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 590 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:37.364
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:34:37.362Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:37.364
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:34:37.362Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:37.364
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:34:37.362Z] request done: headerRequestId: [3d08c8d6-707e-44ff-8541-4f6a40aaa33f] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:37.414
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:34:37.413Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:37.415
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:34:37.385Z] Requesting completion at position 87:37, between "\t\tverify(animalitosRepository).save(animalito.capture());\n\t\tvalidarAnimalito(animalito.getValue" and ")\n\t\t// Aseguramos que se haya llamado a la función enviar Email y sacamos los datos copn los que se ha llamado:\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:37.912
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:34:37.911Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 498 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:37.913
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:34:37.912Z] request done: headerRequestId: [e1462bc0-4944-4355-ab30-bf1fd9273d99] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:37.914
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:34:37.912Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:37.914
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:34:37.912Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:37.973
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:34:37.972Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:37.974
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:34:37.947Z] Requesting completion at position 87:39, between "\t\tverify(animalitosRepository).save(animalito.capture());\n\t\tvalidarAnimalito(animalito.getValue()" and ")\n\t\t// Aseguramos que se haya llamado a la función enviar Email y sacamos los datos copn los que se ha llamado:\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:38.475
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:34:38.474Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 502 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:38.477
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:34:38.475Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:38.477
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:34:38.475Z] request done: headerRequestId: [bf2d54e6-1da2-4d83-8474-f4e54f624f29] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:34:38.477
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:34:38.475Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:29.055
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:42:29.051Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:29.055
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:42:29.009Z] Requesting completion at position 76:56, between "\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombreNulo).edad(edad).tipo(tipoAnimalito).build();\n\t\twhen(animalitosRepository.save(any(Animalito.class)))." and "\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:29.650
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:42:29.649Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 598 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:29.653
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:42:29.650Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:29.654
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:42:29.651Z] request done: headerRequestId: [89fedf26-b0d0-414d-8429-ecaab3b19de1] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:29.654
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:42:29.650Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:29.708
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:42:29.683Z] Requesting completion at position 76:59, between "\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombreNulo).edad(edad).tipo(tipoAnimalito).build();\n\t\twhen(animalitosRepository.save(any(Animalito.class))).the" and "\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:29.708
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:42:29.706Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:30.099
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:42:30.098Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 392 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:30.101
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:42:30.099Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:30.101
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:42:30.099Z] request done: headerRequestId: [784b56ed-381e-408a-8054-af4c996b33d6] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:30.101
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:42:30.099Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:30.145
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:42:30.119Z] Requesting completion at position 76:60, between "\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombreNulo).edad(edad).tipo(tipoAnimalito).build();\n\t\twhen(animalitosRepository.save(any(Animalito.class))).then" and "\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:30.146
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:42:30.143Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:40.180
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:42:40.180Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 10036 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:40.182
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:42:40.180Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:40.182
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:42:40.180Z] request done: headerRequestId: [9f3a1599-bf2c-4c87-9143-d056b5786e18] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:40.241
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:42:40.206Z] Requesting completion at position 76:61, between "\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombreNulo).edad(edad).tipo(tipoAnimalito).build();\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenT" and "\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:40.241
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:42:40.239Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:46.329
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:42:46.296Z] Requesting completion at position 76:56, between "\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombreNulo).edad(edad).tipo(tipoAnimalito).build();\n\t\twhen(animalitosRepository.save(any(Animalito.class)))." and "\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:46.329
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:42:46.327Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-11-09 11:42:46.598
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:78)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:50)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:378)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:46.601
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:42:46.600Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 273 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:46.604
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:42:46.601Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:46.604
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:42:46.601Z] request done: headerRequestId: [ac7877f9-8a68-4b8c-8761-0698d04c6749] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:42:46.604
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:42:46.601Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:15.525
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:43:15.523Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:15.525
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:43:15.494Z] Requesting completion at position 76:80, between "\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombreNulo).edad(edad).tipo(tipoAnimalito).build();\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenThrow(new Exception." and ")\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:15.994
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:43:15.994Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 470 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:16.000
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:43:15.996Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:16.000
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:43:15.997Z] request done: headerRequestId: [7415d3d0-c94f-4b48-856c-394600fa8839] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:16.001
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:43:15.997Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:16.984
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:43:16.955Z] Requesting completion at position 76:79, between "\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombreNulo).edad(edad).tipo(tipoAnimalito).build();\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenThrow(new Exceptio)" and "\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:16.984
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:43:16.982Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:17.223
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:43:17.221Z] request done: headerRequestId: [7a906006-d332-4973-bd28-f78eb14ada68] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:17.223
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:43:17.220Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 238 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:17.223
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:43:17.220Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:17.223
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:43:17.220Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:17.422
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:43:17.421Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:17.423
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:43:17.395Z] Requesting completion at position 76:79, between "\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombreNulo).edad(edad).tipo(tipoAnimalito).build();\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenThrow(new Exception" and ")\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:18.187
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:43:18.186Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 765 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:18.190
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:43:18.187Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:18.190
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:43:18.188Z] request done: headerRequestId: [0ed3c4b6-9115-4880-881b-b041fb581c50] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:18.190
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:43:18.187Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:18.355
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:43:18.306Z] Requesting completion at position 76:80, between "\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombreNulo).edad(edad).tipo(tipoAnimalito).build();\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenThrow(new Exception(" and "))\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:18.366
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:43:18.345Z] [fetchCompletions] engine https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:19.153
+!MESSAGE [Info]	[INFO] [default] [2023-11-09T10:43:19.151Z] request.response: [https://copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions] took 806 ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:19.155
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:43:19.152Z] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:19.155
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:43:19.152Z] request done: headerRequestId: [85a46aca-c8fd-43dc-bb87-b9bc0069854c] model deployment ID: [x8d972952f61]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:19.155
+!MESSAGE [Info]	[INFO] [streamChoices] [2023-11-09T10:43:19.152Z] solution 1 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:19.290
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:43:19.262Z] Requesting completion at position 76:72, between "\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombreNulo).edad(edad).tipo(tipoAnimalito).build();\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenThrow(new Ex" and "ception())\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:19.561
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:43:19.540Z] Requesting completion at position 76:71, between "\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombreNulo).edad(edad).tipo(tipoAnimalito).build();\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenThrow(new E" and "xception())\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:19.832
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:43:19.809Z] Requesting completion at position 76:70, between "\t\tAnimalito nuevoAnimalito = Animalito.builder().id(33L).nombre(nombreNulo).edad(edad).tipo(tipoAnimalito).build();\n\t\twhen(animalitosRepository.save(any(Animalito.class))).thenThrow(new " and "Exception())\n\t\t//Dado\t\t\t\tunos datos de un nuevo animalito\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:43:58.230
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:43:58.201Z] Requesting completion at position 75:13, between "\t\tDatosDeNuevoAnimalito datosDeNuevoAnimalito = new DatosDeNuevoAnimalito(nombreNulo,tipoAnimalito , edad);\n\t\tAssertions." and " animalitosService.altaDeAnimalito(datosDeNuevoAnimalito);\n\t}\n".
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-09 11:44:51.888
+!MESSAGE [Log]	[DEBUG] [getCompletions] [2023-11-09T10:44:51.860Z] Requesting completion at position 75:36, between "\t\tDatosDeNuevoAnimalito datosDeNuevoAnimalito = new DatosDeNuevoAnimalito(nombreNulo,tipoAnimalito , edad);\n\t\tAssertions.assertThrows(Exception." and " () -> animalitosService.altaDeAnimalito(datosDeNuevoAnimalito));\n\t}\n".

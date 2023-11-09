@@ -33,11 +33,11 @@ public class AnimalitosServiceImpl implements AnimalitosService {
 	
 	private final List<Consumer<NotificacionServicioAnimalitos>> consumidores = new ArrayList<>();
 	
-	@Value("animalitos.service.email.destinatario:altas@animalitosfermin.com")
+	@Value("${animalitos.service.email.destinatario:altas@animalitosfermin.com}")
 	private String destinatario;
-	@Value("animalitos.service.email.asunto:Nuevo animalito")
+	@Value("${animalitos.service.email.asunto:Nuevo animalito}")
 	private String asunto;
-	@Value("animalitos.service.email.contenido:Se ha dado de alta al animalito: ")
+	@Value("${animalitos.service.email.contenido:Se ha dado de alta al animalito: }")
 	private String contenido;
 
 	
