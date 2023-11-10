@@ -20,6 +20,7 @@
         <module>animalitos-service-impl</module>
         <module>emails-service-api</module>
         <module>animalitos-rest-controller-v1</module>
+        <module>animalitos-rest-controller-v2</module>
         <module>aplicacion-backend</module>
     </modules>
 

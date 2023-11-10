@@ -55,6 +55,7 @@ public class ServicioRestV1AnimalitosStepsTest {
 	private EmailsService emailsService;
 
 	@Given("una aplicación con el servicio REST de animalitos en V1")
+	@Given("una aplicación con el servicio REST de animalitos en V2")
 	public void una_aplicación_con_el_servicio_rest_de_animalitos_en_v1() {
 	}
 	
@@ -85,7 +86,7 @@ public class ServicioRestV1AnimalitosStepsTest {
 	
 	@Cuando("se solicita al cliente web un post del objeto JSON al endpoint {string}")
 	public void se_solicita_al_cliente_web_un_post_del_objeto_json_al_endpoint(String endpoint) throws Exception {
-		resultado = clienteWeb.perform(MockMvcRequestBuilders.post("/api/v1/animalitos")
+		resultado = clienteWeb.perform(MockMvcRequestBuilders.post(endpoint)
 				.contentType(MediaType.APPLICATION_JSON)
 				.content(objetoJson.toString()));
 	}

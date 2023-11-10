@@ -10,10 +10,10 @@
         <artifactId>backendFermin</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>animalitos-rest-controller-v1</artifactId>
+    <artifactId>animalitos-rest-controller-v2</artifactId>
 
     <!-- Metadatos-->
-    <name>Implementación del controlador rest del servicio de animalitos v1</name>
+    <name>Implementación del controlador rest del servicio de animalitos v2</name>
 
     <!-- Dependencias propias -->
     <dependencies>
@@ -34,7 +34,7 @@
             <artifactId>animalitos-service-impl</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
-        </dependency>                
+        </dependency>              
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>emails-service-api</artifactId>

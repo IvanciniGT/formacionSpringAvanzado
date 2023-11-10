@@ -37,7 +37,7 @@ class AnimalitoUnitTest {
 	@DisplayName("Probar que no puedo dar de alta un animal con nombre vacio.")
 	void probarAnimalitoConNombreVacio() {
 		// Contexto de ejecución // DADO
-		Animalito miAnimalito = Animalito.builder().edad(3).tipo(TipoAnimalito.GATO).nombre("").build();
+		Animalito miAnimalito = Animalito.builder().edad(3).color("rojo").tipo(TipoAnimalito.GATO).nombre("").build();
 		// Lo que quiero probar (objeto de prueba: CUANDO)
 		// Valor esperado de la prueba (ENTONCES)
 		Assertions.assertThrows(  Exception.class, () -> repositorioDeAnimalitos.save(miAnimalito) );
@@ -47,7 +47,7 @@ class AnimalitoUnitTest {
 	@DisplayName("Probar que no puedo dar de alta un animal sin nombre.")
 	void probarAnimalitoConSinNombre() {
 		// Contexto de ejecución // DADO
-		Animalito miAnimalito = Animalito.builder().edad(3).tipo(TipoAnimalito.GATO).build();
+		Animalito miAnimalito = Animalito.builder().edad(3).color("verde").tipo(TipoAnimalito.GATO).build();
 		// Lo que quiero probar (objeto de prueba: CUANDO)
 		// Valor esperado de la prueba (ENTONCES)
 		Assertions.assertThrows(  Exception.class, () -> repositorioDeAnimalitos.save(miAnimalito) );
@@ -57,7 +57,17 @@ class AnimalitoUnitTest {
 	@DisplayName("Probar que no puedo dar de alta un animal sin tipo.")
 	void probarAnimalitoConSinTipo() {
 		// Contexto de ejecución // DADO
-		Animalito miAnimalito = Animalito.builder().edad(3).nombre("Firulais").build();
+		Animalito miAnimalito = Animalito.builder().edad(3).color("verde").nombre("Firulais").build();
+		// Lo que quiero probar (objeto de prueba: CUANDO)
+		// Valor esperado de la prueba (ENTONCES)
+		Assertions.assertThrows(  Exception.class, () -> repositorioDeAnimalitos.save(miAnimalito) );
+	}
+
+	@Test
+	@DisplayName("Probar que no puedo dar de alta un animal sin color.")
+	void probarAnimalitoConSinColor() {
+		// Contexto de ejecución // DADO
+		Animalito miAnimalito = Animalito.builder().edad(3).tipo(TipoAnimalito.GATO).color(null).nombre("Firulais").build();
 		// Lo que quiero probar (objeto de prueba: CUANDO)
 		// Valor esperado de la prueba (ENTONCES)
 		Assertions.assertThrows(  Exception.class, () -> repositorioDeAnimalitos.save(miAnimalito) );
@@ -67,7 +77,7 @@ class AnimalitoUnitTest {
 	@DisplayName("Probar que si debo poder dar de alta un animal sin edad.")
 	void probarAnimalitoConSinEdad() {
 		// Contexto de ejecución // DADO
-		Animalito miAnimalito = Animalito.builder().tipo(TipoAnimalito.PERRO).nombre("Firulais").build();
+		Animalito miAnimalito = Animalito.builder().tipo(TipoAnimalito.PERRO).color("verde").nombre("Firulais").build();
 		// Lo que quiero probar (objeto de prueba: CUANDO)
 		// Valor esperado de la prueba (ENTONCES)
 		Animalito animalitoGuardado = repositorioDeAnimalitos.save(miAnimalito);
@@ -81,7 +91,7 @@ class AnimalitoUnitTest {
 	@DisplayName("Probar que no puedo dar de alta un animal con nombre muy largo.")
 	void probarAnimalitoConNombreLargo() {
 		// Contexto de ejecución // DADO
-		Animalito miAnimalito = Animalito.builder().edad(3).tipo(TipoAnimalito.GATO).nombre("abcdefhgijklmnñopqrstuvwxyzabcdefhgijklmnñopqrstuvwxyz").build();
+		Animalito miAnimalito = Animalito.builder().edad(3).color("verde").tipo(TipoAnimalito.GATO).nombre("abcdefhgijklmnñopqrstuvwxyzabcdefhgijklmnñopqrstuvwxyz").build();
 		// Lo que quiero probar (objeto de prueba: CUANDO)
 		// Valor esperado de la prueba (ENTONCES)
 		Assertions.assertThrows(  Exception.class, () -> repositorioDeAnimalitos.save(miAnimalito) );
@@ -95,9 +105,9 @@ class AnimalitoUnitTest {
 		int iniciales = animalitosDevuletos.size();
 		animalitosDevuletos.forEach( animalitoInicial -> Assertions.assertEquals(animalitoInicial.getTipo(), TipoAnimalito.PERRO));
 		
-		Animalito miAnimalito1 = repositorioDeAnimalitos.save(Animalito.builder().tipo(TipoAnimalito.PERRO).nombre("Firulais").build());
-		Animalito miAnimalito2 = repositorioDeAnimalitos.save(Animalito.builder().tipo(TipoAnimalito.PERRO).nombre("Pipo").build());
-		repositorioDeAnimalitos.save(Animalito.builder().tipo(TipoAnimalito.GATO).nombre("Pancin").build());
+		Animalito miAnimalito1 = repositorioDeAnimalitos.save(Animalito.builder().color("verde").tipo(TipoAnimalito.PERRO).nombre("Firulais").build());
+		Animalito miAnimalito2 = repositorioDeAnimalitos.save(Animalito.builder().color("verde").tipo(TipoAnimalito.PERRO).nombre("Pipo").build());
+		repositorioDeAnimalitos.save(Animalito.builder().tipo(TipoAnimalito.GATO).color("verde").nombre("Pancin").build());
 		
 		List<Animalito> animalitosDevuletos2 = repositorioDeAnimalitos.findByTipo(TipoAnimalito.PERRO);
 		Assertions.assertEquals(2+iniciales, animalitosDevuletos2.size());

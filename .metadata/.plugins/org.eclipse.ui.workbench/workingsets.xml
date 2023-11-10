@@ -9,6 +9,7 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/animalitos-service-impl" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/emails-service-api" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/animalitos-rest-controller-v1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/animalitos-rest-controller-v2" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/aplicacion-backend" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1699342260808_2" label="Window Working Set" name="Aggregate for window 1699342260808"/>

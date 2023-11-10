@@ -34,5 +34,14 @@ public class Animalito {
 	private TipoAnimalito tipo;
 
 	private Integer edad;
+
+	@Column(nullable=false, length=50/*columnDefinition="varchar(50) not null default 'rojo'"*/)
+	@NotBlank(message="El color de un animalito no puede estar vacío")
+	//@Builder.Default
+	private String color; // = "desconocido";
+	// Hacer un update de la tabla en la BBDD que tengo 300k datos ya cargados:
+	// UPDATE TABLE animalitos ( color VARCHAR(50) null ); // OPCION 3
+	// UPDATE animalitos SET color ='desconocido';
+	// UPDATE TABLE animalitos ( color VARCHAR(50) not null );
 	
 }

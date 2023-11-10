@@ -72,7 +72,7 @@ public class AnimalitosServiceImplUnitTest {
 		TipoAnimalito tipoAnimalito = TipoAnimalito.valueOf(tipo.toUpperCase());
 		when(animalitosRepository.save(any(Animalito.class))).thenThrow(new IllegalArgumentException("Nombre vacío"));
 
-		DatosDeNuevoAnimalito datosDeNuevoAnimalito = new DatosDeNuevoAnimalito(nombreNulo,tipoAnimalito , edad);
+		DatosDeNuevoAnimalito datosDeNuevoAnimalito = new DatosDeNuevoAnimalito(nombreNulo,tipoAnimalito , edad,"rojo");
 		Assertions.assertThrows(Exception.class, () -> animalitosService.altaDeAnimalito(datosDeNuevoAnimalito));
 	}
 	@ParameterizedTest
@@ -89,7 +89,7 @@ public class AnimalitosServiceImplUnitTest {
 		//Y 				ese nuevo animalito tiene por "nombre": "<nombre>"
 		//Y 				ese nuevo animalito tiene por "tipo": "<tipo>"
 		//Y 				ese nuevo animalito tiene por "edad": <edad>
-		DatosDeNuevoAnimalito datosDeNuevoAnimalito = new DatosDeNuevoAnimalito(nombre,tipoAnimalito , edad);
+		DatosDeNuevoAnimalito datosDeNuevoAnimalito = new DatosDeNuevoAnimalito(nombre,tipoAnimalito , edad, "verde");
 		//Cuando			se solicita al servicio de animalitos el alta de ese nuevo animalito
 		DatosAnimalito datosAnimalitoDevuelto = animalitosService.altaDeAnimalito(datosDeNuevoAnimalito);
 		//Entonces			se devuelve un os datos de animalito

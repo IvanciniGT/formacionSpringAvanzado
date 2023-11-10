@@ -1,22 +1,18 @@
-package com.fermin.animalitos.service.dto;
+package com.fermin.animalitos.controller.rest.v2.dto;
 
 import com.fermin.animalitos.entity.TipoAnimalito;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.experimental.SuperBuilder;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@SuperBuilder
-
-public class DatosDeNuevoAnimalito {
+public class DatosDeNuevoAnimalitoRestV2 {
 
 	private String nombre;
 	private TipoAnimalito tipo;
-	private Integer edad;
+	private Integer age;
 	private String color;
-	
 }

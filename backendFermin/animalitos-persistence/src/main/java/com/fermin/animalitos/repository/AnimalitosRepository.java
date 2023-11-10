@@ -10,5 +10,7 @@ import com.fermin.animalitos.entity.TipoAnimalito;
 public interface AnimalitosRepository extends JpaRepository<Animalito, Long>{
 
 	List<Animalito> findByTipo(TipoAnimalito tipoAnimalito);
+	List<Animalito> findByColor(String color);
+	List<Animalito> findByTipoAndColor(TipoAnimalito tipoAnimalito, String color);
 	
 }
