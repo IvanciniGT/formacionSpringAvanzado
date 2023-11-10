@@ -21,6 +21,7 @@
         <module>emails-service-api</module>
         <module>animalitos-rest-controller-v1</module>
         <module>animalitos-rest-controller-v2</module>
+        <module>animalitos-websocket</module>
         <module>aplicacion-backend</module>
     </modules>
 
@@ -36,6 +37,10 @@
         <mapstruct.version>1.5.5.Final</mapstruct.version>
 		<lombok-mapstruct-binding.version>0.2.0</lombok-mapstruct-binding.version>
 		<maven.compiler.version>3.11.0</maven.compiler.version>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <sonar.qualitygate.wait>true</sonar.qualitygate.wait>
+        <sonar.sources>pom.xml,src/main/java,src/main/resources</sonar.sources>
+        <org.jacoco.version>0.8.10</org.jacoco.version>
     </properties>
 
     <!--Dependencias-->
@@ -129,9 +134,66 @@
                     </annotationProcessorPaths>
                 </configuration>
             </plugin>
-        </plugins>
-    </build>
-    <!-- Generación de informes JACOCO: Cobertura de código -->
-    <!-- Integración con sonar -->
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>${org.jacoco.version}</version>
+            </plugin>
 
+                <plugin>
+                    <groupId>org.sonarsource.scanner.maven</groupId>
+                    <artifactId>sonar-maven-plugin</artifactId>
+                    <version>3.10.0.2594</version>
+                </plugin>
+            </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>coverage</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.jacoco</groupId>
+                        <artifactId>jacoco-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>prepare-agent</id>
+                                <goals>
+                                    <goal>prepare-agent</goal>
+                                </goals>
+                            </execution>
+                            <execution>
+                                <id>report</id>
+                                <goals>
+                                    <goal>report</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+
+        <profile>
+            <id>sonar</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <sonar.host.url>
+                    https://VUESTRO SONAR
+                 </sonar.host.url>
+                <sonar.token>VUESTRO TOKEN</sonar.token>
+            </properties>
+        </profile>
+    </profiles>
+    <!--
+    mvn jacoco:report
+    mvn sonar:sonar
+    
+    -->
 </project>

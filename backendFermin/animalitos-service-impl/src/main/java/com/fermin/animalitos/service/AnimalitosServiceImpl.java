@@ -41,6 +41,10 @@ public class AnimalitosServiceImpl implements AnimalitosService {
 	private String contenido;
 
 	
+	// En el servidor de qaplicaciones (TOMCAT) se configura un ExecutorPool -> pool de hilos
+	// Cada petición HTTP toma un hilo de ese pool de hilos
+	// Y ese hilo se usa para ejecuatr el código
+	
 	@Override
 	public DatosAnimalito altaDeAnimalito(DatosDeNuevoAnimalito datosDeNuevoAnimalito) {
 		// Persistir el animalito, compatibilizando los datos

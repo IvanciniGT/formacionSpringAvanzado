@@ -1,0 +1,93 @@
+
+
+UNITARIA No abro conexión---> Pido a spring una instancia de la clase... 
+MOCK del servicio
+
+connectionEstablished
+altaDeUnAnimalito
+notificacion
+connection closed
+
+
+INTEGRACION CON SPRING / SERVIDOR DE APPS
+MOCK del servicio
+
+Abro conexión WB
+altaDeUnAnimalito
+notificacion
+Cierro conexión
+
+INTEGRACION CON SERVICIO
+connectionEstablished
+altaDeUnAnimalito
+notificacion
+connection closed
+
+SISTEMA
+Abro conexión WB
+altaDeUnAnimalito
+notificacion
+Cierro conexión
+
+En Spring tenemos una clase: 
+
+@LocalServerPort
+private int port;
+WebSocketConnectionManager -> Abrir conexiones con un websocket
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.web.server.LocalServerPort;
+import org.springframework.web.socket.client.standard.StandardWebSocketClient;
+import org.springframework.web.socket.client.WebSocketConnectionManager;
+import org.springframework.web.socket.handler.TextWebSocketHandler;
+
+import java.net.URI;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.TimeUnit;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+public class WebSocketIntegrationTest {
+
+    @LocalServerPort
+    private int port;
+
+    @Test
+    public void testWebSocketEndpoint() throws Exception {
+        // Create a latch to wait for the response
+        CountDownLatch latch = new CountDownLatch(1);
+
+        // Connect to the WebSocket endpoint
+        URI uri = new URI("ws://localhost:" + port + "/my-websocket");
+        WebSocketConnectionManager connectionManager = new WebSocketConnectionManager(
+                new StandardWebSocketClient(),
+                new TextWebSocketHandler() {
+                    @Override
+                    public void handleTextMessage(org.springframework.web.socket.WebSocketSession session,
+                                                 TextMessage message) throws Exception {
+                        // Handle the received message
+                        String response = message.getPayload();
+                        // Asegurar que recibo un JSON con el animalito
+                        //assertEquals("Hello, John!", response);
+
+                        // Release the latch to signal the test completion
+                        latch.countDown();
+                    }
+                },
+                uri.toString()
+        );
+        connectionManager.start();
+
+        // Dar de alta el animalito
+
+        // Wait for the latch to be released or timeout
+        if (!latch.await(3, TimeUnit.SECONDS)) {
+            throw new AssertionError("Response not received within timeout");
+        }
+
+        // Close the WebSocket connection
+        connectionManager.stop();
+    }
+}
