@@ -1,4 +1,4 @@
-package com.fermin.animalitos.controller.rest.v1;
+package com.fermin;
 
 import org.json.JSONObject;
 import org.junit.jupiter.api.Assertions;
@@ -20,7 +20,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import java.util.Optional;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fermin.TestApplication;
 import com.fermin.animalitos.entity.Animalito;
 import com.fermin.animalitos.entity.TipoAnimalito;
 import com.fermin.animalitos.repository.AnimalitosRepository;
@@ -28,7 +27,7 @@ import com.fermin.emails.service.EmailsService;
 import com.fermin.animalitos.controller.rest.v1.dto.DatosAnimalitoRestV1;
 
 @ExtendWith(SpringExtension.class)					// Que JUnit PUEDA solicitar datos a Spring
-@SpringBootTest(classes = TestApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)	// Arranca una app que he de tener configurada (De antemano) para que incluya mi Servicio
+@SpringBootTest(classes = FerminBackendApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)	// Arranca una app que he de tener configurada (De antemano) para que incluya mi Servicio
 //@TestInstance(Lifecycle.PER_CLASS) Con esta anotación, JUnit crea una úinica instancia de la clase en la que ejecuta todas las funciones de test
 // Esto es lo que necesito si quiero meter un Hook de JUNIT (Before... After...) que trabaje con datos a nivel de instancia
 @AutoConfigureMockMvc // Crea un cliente HTTP de pruebas para mi app
