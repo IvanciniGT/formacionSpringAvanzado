@@ -1497,3 +1497,15 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.vgcpge.eclipse.copilot.ui 1 0 2023-11-10 12:36:32.310
+!MESSAGE Node.js location: ${HOME}/eclipse/jee-2023-06/Eclipse.app/Contents/Eclipse/.node/node-v18.16.0-darwin-x64/bin/node. Version: v18.16.0
+
+!ENTRY org.vgcpge.eclipse.copilot.ui 1 0 2023-11-10 12:36:32.311
+!MESSAGE Starting: ${HOME}/eclipse/jee-2023-06/Eclipse.app/Contents/Eclipse/.node/node-v18.16.0-darwin-x64/bin/node ${HOME}/eclipse/jee-2023-06/Eclipse.app/Contents/Eclipse/configuration/org.vgcpge.eclipse.copilot.ui/downloaded-agent/copilot.vim-release/dist/agent.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-10 12:36:33.297
+!MESSAGE [Log]	[DEBUG] [agent] [2023-11-10T11:36:33.284Z] Agent service starting
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-11-10 12:36:33.324
+!MESSAGE [Log]	[DEBUG] [agent] [2023-11-10T11:36:33.322Z] Telemetry initialized
